@@ -79,6 +79,29 @@
   object-fit: contain;
 }
 
+.rvn-mobile-tutorials .rvn-video-tutorial-card {
+  margin-inline: auto;
+  max-width: 360px;
+  width: 100%;
+}
+
+.rvn-mobile-tutorials .rvn-video-tutorial-card-media {
+  aspect-ratio: 9 / 16;
+}
+
+.rvn-mobile-tutorials .rvn-video-tutorial-card-media img {
+  object-fit: contain;
+}
+
+.rvn-mobile-download {
+  background: var(--background);
+  padding-block: 96px;
+}
+
+.rvn-mobile-download .rvn-cta-card {
+  padding-block: 64px;
+}
+
 @media (max-width: 768px) {
   .rvn-mobile-hero {
     padding: 64px 0 32px;
@@ -91,6 +114,14 @@
 
   .rvn-mobile-editor {
     padding-block: 64px;
+  }
+
+  .rvn-mobile-download {
+    padding-block: 80px;
+  }
+
+  .rvn-mobile-download .rvn-cta-card {
+    padding-block: 48px;
   }
 
   .rvn-mobile-feature {
