@@ -56,7 +56,7 @@ globalThis.__MasshiroKanjiAliveIndex = [["最初", "さいしょ", "sho-haji(me)
       if (!voice)
         throw new Error(`No ${japanese ? "Japanese" : "English"} AI voice is available on this device.`);
       if (!current()) return;
-      report("AI voice — native recording unavailable.", false);
+      report("AI voice (native recording unavailable).", false);
       await new Promise((resolve, reject) => {
         const utterance = new environment.SpeechSynthesisUtterance(
           japanese ? pair.reading || pair.headword : pair.headword
