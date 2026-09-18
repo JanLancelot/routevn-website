@@ -144,6 +144,8 @@ seo:
       videoSrc: /public/masshiro/masshiro-demo-w-text.mp4
       videoLabel: RouteVN Web Extractor demonstration in a Japanese visual novel.
 
+    - $partial: web-extractor-demo
+
     - $partial: feature1
       title: Look up words that you don't know
       sideImageSrc: /public/reader/web-extractor/telescope.png
@@ -154,7 +156,7 @@ seo:
             - Extract text from dialogue choices.
             - Browse the history of extracted lines.
       themeClass: light rvn-web-extractor-feature
-      backgroundColor: var(--muted)
+      backgroundColor: var(--background)
       foregroundColor: var(--foreground)
       images:
         - src: /public/reader/web-extractor/popup.png
@@ -172,9 +174,9 @@ seo:
           bullets:
             - Works with AnkiConnect.
             - Capture full lines and screenshots for richer context.
-            - Configure custom note types and card types.
+            - Choose a card type with the Lapis note type.
       themeClass: light rvn-web-extractor-feature
-      backgroundColor: var(--background)
+      backgroundColor: var(--muted)
       foregroundColor: var(--foreground)
       imgSrc: /public/reader/web-extractor/anki.png
 
