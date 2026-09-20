@@ -203,11 +203,11 @@ browsers:
       backgroundColor: var(--muted)
       foregroundColor: var(--foreground)
       images:
-        - src: /public/reader/web-extractor/popup.png
+        - src: /public/reader/web-extractor/screenshots/masshiro-hover.png
           alt: Dictionary popup showing a word definition over visual novel dialogue.
-        - src: /public/reader/web-extractor/history.png
-          alt: Captured dialogue history with a pop-up dictionary definition.
-        - src: /public/reader/web-extractor/choices.png
+        - src: /public/reader/web-extractor/screenshots/masshiro-backlog.png
+          alt: Captured dialogue history in the RouteVN Web Extractor sidebar.
+        - src: /public/reader/web-extractor/screenshots/masshiro-backlog-and-choice.png
           alt: A pop-up dictionary definition for a word in a dialogue choice.
 
     - $partial: feature1
