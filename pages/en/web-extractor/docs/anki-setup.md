@@ -1,5 +1,6 @@
 ---
 template: documentation
+themeBodyClass: light
 url: /en/web-extractor/docs/anki-setup/
 _bind:
   docs: webExtractorDocs

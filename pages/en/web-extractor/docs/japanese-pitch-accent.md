@@ -1,5 +1,6 @@
 ---
 template: documentation
+themeBodyClass: light
 url: /en/web-extractor/docs/japanese-pitch-accent/
 _bind:
   docs: webExtractorDocs

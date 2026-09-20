@@ -1,5 +1,6 @@
 ---
 template: documentation
+themeBodyClass: light
 url: /en/web-extractor/docs/using-the-dictionary/
 _bind:
   docs: webExtractorDocs

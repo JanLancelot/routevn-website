@@ -10,8 +10,8 @@ navbarTitle:
   alt: RouteVN with Masshiro
   href: /
 navbarCta:
-  label: Download
-  href: /en/web-extractor/download/
+  label: Get Extension
+  href: /en/web-extractor/#download
 navbarSecondaryCta:
   label: Docs
   href: /en/web-extractor/docs/getting-started/
@@ -29,6 +29,19 @@ seo:
   ogImageAlt: Masshiro
   ogImageType: image/png
   twitterCard: summary_large_image
+browsers:
+  - name: Chrome
+    icon: chrome
+    label: Add to Chrome
+    href: https://chromewebstore.google.com/detail/routevn-web-extractor/mmaeimemigaiffcbhaaplmgkoimijcik
+  - name: Firefox
+    icon: firefox
+    label: Add to Firefox
+    href: https://addons.mozilla.org/en-US/firefox/addon/routevn-web-extractor/
+  - name: Safari
+    icon: safari
+    label: Coming soon
+    disabled: true
 ---
 - $partial: cursor-sparkles
 
@@ -105,6 +118,29 @@ seo:
       margin-right: calc(50% - 50vw);
       padding: 100px 24px;
       width: 100vw;
+    }
+
+    .rvn-browser-download {
+      display: block;
+      width: 100%;
+      color: inherit;
+      text-decoration: none;
+      border-radius: var(--border-radius-lg);
+    }
+
+    a.rvn-browser-download:hover > rtgl-view {
+      background: var(--muted);
+      border-color: var(--foreground);
+    }
+
+    .rvn-browser-download:focus-visible {
+      outline: 2px solid var(--foreground);
+      outline-offset: 4px;
+    }
+
+    .rvn-browser-download[aria-disabled="true"] {
+      opacity: 0.6;
+      cursor: not-allowed;
     }
 
     @media (max-width: 1280px) {
@@ -196,24 +232,32 @@ seo:
                 - 'rtgl-view md-hide w="140" h="140" aria-hidden="true" style="flex: 0 0 140px;"':
                     - 'img src="/public/reader/web-extractor/kindle.png" alt="" loading="lazy" width="257" height="280" style="display: block; height: 100%; object-fit: contain; width: 100%;"':
             - rtgl-view g="lg" d="v" w="f":
-                - 'rtgl-accordion-item w="f" label="How do I get RouteVN Web Extractor?" content="Select Download to choose the Chrome or Firefox extension. Safari support is coming soon."':
+                - 'rtgl-accordion-item w="f" label="How do I get RouteVN Web Extractor?" content="Select Get Extension to choose the Chrome or Firefox extension. Safari support is coming soon."':
                 - 'rtgl-accordion-item w="f" label="Where can I find free visual novels on the web?"':
                     - 'span class="rvn-web-extractor-faq-content" slot="content"':
                         - __html: >-
                             For Japanese visual novels, we recommend <a href="https://novelgame.jp/">novelgame.jp</a>.
                             For English visual novels, browse <a href="https://itch.io/games/free/genre-visual-novel/platform-web">itch.io’s free visual novels that you can play in your browser</a>.
 
-    - 'section id="download" class="rvn-web-extractor-cta" aria-label="Download RouteVN Web Extractor"':
-        - $partial: cta1
-          title: Download RouteVN Web Extractor
-          subtitle: Get the extension for Chrome or Firefox.
-          cta:
-            label: Docs
-            href: /en/web-extractor/docs/getting-started/
-            variant: se
-          secondaryCta:
-            label: Download
-            href: /en/web-extractor/download/
-            variant: pr
+    - 'section id="download" class="rvn-web-extractor-cta" aria-label="Get RouteVN Web Extractor"':
+        - 'rtgl-view ah="c" g="lg" w="1024" lg-w="f"':
+            - 'rtgl-text s="h2" role="heading" aria-level="2" ta="c"': Get RouteVN Web Extractor
+            - rtgl-text s="lg" c="mu" ta="c" mb="xl": Choose your browser to get the extension.
+            - rtgl-grid cols="3" md-cols="1" g="lg" w="f":
+                - $for browser in browsers:
+                    - $if browser.disabled:
+                        - 'span class="rvn-browser-download" role="link" aria-disabled="true" aria-label="${browser.name}: ${browser.label}" tabindex="0"':
+                            - rtgl-view w="f" h="240" p="lg" bw="xs" br="lg" bgc="su" ah="c" av="c" g="md":
+                                - 'rtgl-svg svg="${browser.icon}" wh="64" f="pr-fg" aria-hidden="true"':
+                                - 'rtgl-text s="h3" role="heading" aria-level="3" ta="c"': ${browser.name}
+                                - rtgl-text s="md" c="mu" ta="c": ${browser.label}
+                      $else:
+                        - 'a class="rvn-browser-download" href="${browser.href}" aria-label="${browser.label}" target="_blank" rel="noopener noreferrer"':
+                            - rtgl-view w="f" h="240" p="lg" bw="xs" br="lg" bgc="su" ah="c" av="c" g="md":
+                                - 'rtgl-svg svg="${browser.icon}" wh="64" f="pr-fg" aria-hidden="true"':
+                                - 'rtgl-text s="h3" role="heading" aria-level="3" ta="c"': ${browser.name}
+                                - rtgl-text s="md" c="mu" ta="c": ${browser.label}
+            - rtgl-text s="md" ta="c" mt="xl":
+                - 'a href="/en/web-extractor/docs/getting-started/"': Installation Guide
 
 - script src="/public/image-lightbox.js" defer:
