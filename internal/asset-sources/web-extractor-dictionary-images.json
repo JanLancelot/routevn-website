@@ -1,0 +1,34 @@
+{
+  "command": "pngquant --quality=95-100 --speed 1 --strip",
+  "sizing": "Original dimensions retained for high-density display and fullscreen previews. No upscaling.",
+  "sources": "Original screenshots remain untouched outside the repository.",
+  "assets": [
+    {
+      "path": "static/public/reader/web-extractor/screenshots/masshiro-hover.png",
+      "source": "masshiro-hover.png",
+      "width": 1919,
+      "height": 1079,
+      "beforeBytes": 2989971,
+      "afterBytes": 735004,
+      "note": "Compressed with pngquant at quality 95–100."
+    },
+    {
+      "path": "static/public/reader/web-extractor/screenshots/masshiro-backlog.png",
+      "source": "masshiro-backlog.png",
+      "width": 1919,
+      "height": 1079,
+      "beforeBytes": 2439653,
+      "afterBytes": 1706619,
+      "note": "pngquant could not meet minimum quality 95; used lossless PNG compression instead."
+    },
+    {
+      "path": "static/public/reader/web-extractor/screenshots/masshiro-backlog-and-choice.png",
+      "source": "masshiro-backlog-and-choice.png",
+      "width": 1919,
+      "height": 1079,
+      "beforeBytes": 2168295,
+      "afterBytes": 500639,
+      "note": "Compressed with pngquant at quality 95–100."
+    }
+  ]
+}
