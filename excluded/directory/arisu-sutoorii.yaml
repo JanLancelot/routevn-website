@@ -1,0 +1,30 @@
+# Excluded pending content review; not used by the website build.
+# Creator warns of sexual jokes; underwear and sexual-joke tags.
+- slug: arisu-sutoorii
+  author: ねこの/milkcat
+  authorUrl: https://novelgame.jp/users/profile/1453
+  sourceRank: 62
+  title: ありすすとーりー
+  titleKana: ありすすとーりー
+  titleRomanized: Arisu Sutoorii
+  titleEnglish:
+    text: Alice Story
+    status: unofficial
+  cover:
+    src: >-
+      https://d145fhkdapgfg3.cloudfront.net/files/picture/1453/s_0_1721867710_65d171d82a4f81fc3c29cdf316342556_fes.png
+    alt: Cover image for ありすすとーりー
+  language: ja
+  minimumLevel: null
+  gameUrl: https://novelgame.jp/games/show/7505
+  vndbUrl: null
+  genres:
+    - fantasy
+    - adventure
+  summary: >-
+    Alice's trip to another world brings battles, comic disasters, and clues to her past.
+  synopsis: >-
+    Transported to another world, Alice sets off with new companions on an adventure that
+    refuses to go smoothly. Explore, gather items, and fight enemies in real time as trouble
+    follows her from one encounter to the next. Beneath the comic mishaps, the journey also
+    begins to reveal the past of its frequently unfortunate heroine.

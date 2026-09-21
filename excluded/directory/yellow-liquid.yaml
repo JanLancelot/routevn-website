@@ -1,0 +1,21 @@
+# Excluded pending content review; not used by the website build.
+# The description describes a girl whose tail produces gasoline; it does not explicitly label sexual content.
+- slug: yellow-liquid
+  author: mumu
+  authorUrl: https://novelgame.jp/users/profile/35421
+  sourceRank: 64
+  title: YELLOW LIQUID
+  cover:
+    src: >-
+      https://d145fhkdapgfg3.cloudfront.net/files/picture/35421/s_0_1674357774_9c5482ac4df01d9587c55fee6d8296fa_fes.png
+    alt: Cover image for YELLOW LIQUID
+  language: ja
+  minimumLevel: null
+  gameUrl: https://novelgame.jp/games/show/7627
+  vndbUrl: null
+  genres:
+    - fantasy
+  summary: >-
+    A girl has a tail that produces gasoline.
+  synopsis: >-
+    A girl has a tail with a peculiar ability: it produces gasoline.

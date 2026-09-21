@@ -2,8 +2,8 @@
   "type": "module",
   "scripts": {
     "asset-store:import": "bun scripts/import-asset-package.js",
-    "build": "rtgl sites build",
-    "watch": "rtgl sites watch",
+    "build": "bun scripts/prepare-directory.mjs && rtgl sites build",
+    "watch": "node scripts/watch-directory.mjs",
     "screenshots": "rtgl sites screenshots",
     "test": "node --test scripts/import-asset-package.test.js"
   },

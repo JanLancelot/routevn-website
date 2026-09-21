@@ -1,0 +1,9 @@
+[hidden] { display: none !important; }
+body { min-height: 100vh; min-height: 100svh; }
+.site-content { flex: 1 0 auto; }
+.site-footer { flex-shrink: 0; }
+.card-link { display: block; width: 100%; height: 100%; border-radius: var(--border-radius-lg); text-decoration: none; }
+.card-link:hover { text-decoration: none; }
+#main:focus { outline: none; }
+.skip-link { position: fixed; z-index: 10; left: 16px; top: 12px; padding: 12px 20px; background: var(--background); border: 1px solid var(--border); transform: translateY(-200%); }
+.skip-link:focus { transform: translateY(0); }

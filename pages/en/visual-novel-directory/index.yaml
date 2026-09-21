@@ -1,0 +1,49 @@
+---
+template: directory
+---
+- rtgl-view w=f g=md pv=xl:
+    - rtgl-text s=h2 role=heading aria-level=1: ${directory.copy.heading}
+    - rtgl-text s=sm c=mu-fg:
+        - span: "This directory curates visual novels that work with the "
+        - a href="/en/web-extractor/": RouteVN Web Extractor
+        - span: ". Learn foreign languages while reading visual novels."
+    - rtgl-text s=sm c=mu-fg: ${directory.copy.directoryContentDisclaimer}
+    - $partial: directory/submit-novel
+- rtgl-view#filters w=f g=lg role=search aria-label="${directory.copy.filtersLabel}":
+    - rtgl-view w=f g=md:
+        - rtgl-text#search-label s=sm: ${directory.copy.searchLabel}
+        - rtgl-input#search w=f h=44 type=search placeholder="${directory.copy.searchPlaceholder}" disabled:
+    - rtgl-view d=h sm-d=v av=e sm-av=s g=lg w=f:
+        - rtgl-view w=1fg sm-w=f g=md:
+            - rtgl-text#language-label s=sm: ${directory.filters.language.label}
+            - rtgl-select#language w=f placeholder="${directory.filters.language.placeholder}" no-clear disabled:
+        # Reading level is temporarily disabled; enable filters.level.enabled when restoring.
+        # - rtgl-view w=1fg sm-w=f g=md:
+        #     - rtgl-text#level-label s=sm: ${directory.filters.level.label}
+        #     - rtgl-select#level w=f placeholder="${directory.filters.level.allLabel}" no-clear disabled:
+        - rtgl-view w=1fg sm-w=f g=md:
+            - rtgl-text#genre-label s=sm: ${directory.filters.genre.label}
+            - rtgl-select#genre w=f placeholder="${directory.filters.genre.allLabel}" no-clear disabled:
+- noscript:
+    - p: ${directory.copy.noScript}
+- style: |
+    html:not(.dir-live) .novel-card:not([data-language="${directory.filters.language.defaultValue}"]) { display: none; }
+    html:not(.dir-live) #result-count { display: none; }
+- rtgl-view role=region aria-labelledby=results-heading w=f mt=xl g=lg:
+    - rtgl-view d=h av=c ah=s g=lg w=f:
+        - rtgl-text#results-heading s=h4 role=heading aria-level=2: ${directory.copy.resultsHeading}
+        - rtgl-view w=1fg:
+        - rtgl-text#result-count s=sm c=mu-fg role=status aria-live=polite aria-atomic=true:
+            - $if directory.novels.length == 1:
+                - span: ${directory.novels.length} ${directory.copy.resultSingularNoun}
+              $else:
+                - span: ${directory.novels.length} ${directory.copy.resultNoun}
+    - rtgl-grid#novel-grid cols=4 lg-cols=2 sm-cols=1 g=lg w=f:
+        - $for item in directory.novels:
+            - $partial: directory/novel-card
+              item: ${item}
+    - rtgl-view#empty-state w=f ah=c g=lg p=xl bw=xs br=lg hidden:
+        - rtgl-text s=h4 role=heading aria-level=3 ta=c: ${directory.copy.emptyHeading}
+        - rtgl-text c=mu-fg ta=c: ${directory.copy.emptyDescription}
+        - rtgl-button#empty-clear v=ol: ${directory.copy.clear}
+- rtgl-view w=f h=240 aria-hidden=true:

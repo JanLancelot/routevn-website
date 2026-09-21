@@ -1,0 +1,6 @@
+- 'rtgl-view w="f" mt="xl"':
+    - 'rtgl-view role="region" aria-labelledby="directory-discover-title" d="h" md-d="v" av="c" md-av="s" g="lg" p="xl" md-p="lg" w="f" bw="xs" br="md" bgc="su"':
+        - 'rtgl-view w="1fg" md-w="f" g="md"':
+            - 'rtgl-text id="directory-discover-title" s="h3" role="heading" aria-level="3"': Find a visual novel to read
+            - 'rtgl-text s="md" c="mu"': Browse free browser games in Japanese and English.
+        - 'rtgl-button href="/en/visual-novel-directory/"': Browse the directory

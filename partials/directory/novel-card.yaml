@@ -1,0 +1,16 @@
+- rtgl-view.novel-card role=article data-slug="${item.slug}" data-language="${item.language}" w=f:
+    - a.card-link href="/en/visual-novel-directory/v/${item.slug}/" aria-labelledby="title-${item.slug}":
+        - rtgl-view w=f h=f bw=xs bc=bo h-bc=fg br=lg overflow=hidden:
+            - rtgl-view w=f ar="4/3" bgc=mu overflow=hidden:
+                - rtgl-image w=f h=f of=cov src="${item.cover.src}" alt="${item.cover.alt}" loading=lazy:
+            - rtgl-view w=f g=lg p=lg:
+                - rtgl-view w=f g=md:
+                    - rtgl-text id="title-${item.slug}" s=lg role=heading aria-level=3 lang="${item.language}" break-long-tokens: ${default(item.titleOriginal, item.title)}
+                    - $if item.titleOriginal && item.titleOriginal != item.title:
+                        - rtgl-text s=sm c=mu-fg break-long-tokens: ${item.title}
+                - rtgl-view d=h wrap av=c g=sm w=f:
+                    - $if item.minimumLevel:
+                        - rtgl-tag: ${item.minimumLevel}
+                    - $partial: directory/genre-labels
+                      item: ${item}
+                - rtgl-text c=mu-fg s=sm lang=en: ${item.summary}

@@ -1,0 +1,2540 @@
+# Edit this catalog; build and watch regenerate game pages and search data automatically.
+site:
+  name: RouteVN
+  title: Visual novels for language learning · RouteVN
+  description: Find a visual novel for language learning. Browse by language and genres.
+  language: en
+  footer: RouteVN is an independent directory. Games and artwork belong to their respective rights holders.
+
+copy:
+  heading: RouteVN Web Extractor Visual Novel Directory
+  directoryContentDisclaimer: The content of the visual novels belongs to the original authors and hosting platforms. RouteVN does not claim rights or ownership of that content.
+  searchLabel: Search titles
+  searchPlaceholder: Search titles…
+  filtersLabel: Find a visual novel
+  clear: Clear filters
+  resultsHeading: Explore visual novels
+  resultOne: "{count} visual novel"
+  resultMany: "{count} visual novels"
+  resultNoun: visual novels
+  resultSingularNoun: visual novel
+  emptyHeading: No stories found this time.
+  emptyDescription: Try another title, a different language, or a different genre.
+  noScript: Enable JavaScript to search and filter. Without it, only Japanese titles are listed.
+  skipLink: Skip to content
+  back: Back
+  synopsis: Brief description
+  titleSource: English title source
+  openGame: "Read on"
+  viewOnVndb: View on VNDB
+  byAuthor: "By "
+  officialTitleShort: Official
+  unofficialTitleShort: Unofficial
+  reportIssueCompact: Report an issue
+  levelLabel: Suggested minimum level
+  languageLabel: Language
+  genresLabel: Genres
+  submitNovel: Submit a visual novel
+  formComingSoon: Coming soon
+
+# Published Tally share URLs. Actions show "Coming soon" until configured.
+forms:
+  reportIssueUrl: https://tally.so/r/7RQXYZ
+  submitNovelUrl: https://tally.so/r/ODRQq7
+
+filters:
+  language:
+    label: Language
+    placeholder: Any
+    defaultValue: ja
+    options:
+      - { value: any, label: Any }
+      - { value: ja, label: Japanese }
+      - { value: en, label: English }
+  level:
+    enabled: false
+    label: Reading level
+    allLabel: Any level
+    optionsByLanguage:
+      en: []
+      ja:
+        - { value: N5, label: "N5 · Beginner", rank: 1 }
+        - { value: N4, label: "N4 · Elementary", rank: 2 }
+        - { value: N3, label: "N3 · Intermediate", rank: 3 }
+        - { value: N2, label: "N2 · Upper intermediate", rank: 4 }
+        - { value: N1, label: "N1 · Advanced", rank: 5 }
+  genre:
+    label: Genre
+    allLabel: All genres
+    options:
+      - { value: slice-of-life, label: Slice of life }
+      - { value: romance, label: Romance }
+      - { value: mystery, label: Mystery }
+      - { value: fantasy, label: Fantasy }
+      - { value: adventure, label: Adventure }
+      - { value: drama, label: Drama }
+      - { value: science-fiction, label: Science fiction }
+      - { value: horror, label: Horror }
+      - { value: comedy, label: Comedy }
+      - { value: puzzle, label: Puzzle }
+      - { value: simulation, label: Simulation }
+
+catalogSource:
+  url: https://novelgame.jp/games/ranking/all/
+  retrievedOn: '2026-09-15'
+  ordering: Source ranking, positions 1–100
+
+# Japanese entries retain their order from the ranking snapshot above; English entries follow them.
+# English descriptions paraphrase the linked game pages; genres are editorial categories.
+# null means reading difficulty has not been assessed or a VNDB listing has not been verified.
+# Covers load directly from source-page image URLs.
+# Readings and unofficial English titles are editorial; promotional suffixes may be omitted in readings.
+# Official English names cite publisher sources; they do not imply an English game release.
+novels:
+  - slug: astras-garden
+    title: Astra's Garden
+    author: NomnomNami
+    authorUrl: https://nomnomnami.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzg3NzgxMTAucG5n/original/7j0Mcr.png
+      alt: Cover image for Astra's Garden
+    language: en
+    minimumLevel: null
+    gameUrl: https://nomnomnami.itch.io/astras-garden
+    vndbUrl: null
+    genres:
+      - fantasy
+      - simulation
+      - drama
+    summary: Grow medicinal plants while hearing the stories of Astra's customers.
+    synopsis: >-
+      Astra grows plants to make medicine for the people who visit her. Tend the garden as her
+      customers bring their needs into the shop, and follow a story concerned with care, chronic
+      illness, and loss. The work of cultivating plants continues alongside the lives of the people
+      who depend on them.
+  - slug: itsumo-nakayoshi-boku-no-ie
+    author: リグ
+    authorUrl: https://novelgame.jp/users/profile/127
+    sourceRank: 55
+    title: いつも仲よしボクの家
+    titleKana: いつもなかよしぼくのいえ
+    titleRomanized: Itsumo Nakayoshi Boku no Ie
+    titleEnglish:
+      text: My Always-Happy Home
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/127/s_0_1506700423_bd4e9438147bfba5773051c644a4e528_fes.jpg
+      alt: Cover image for いつも仲よしボクの家
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/491
+    vndbUrl: null
+    genres:
+      - horror
+      - drama
+    summary: >-
+      A child in a supposedly happy household faces an important choice.
+    synopsis: >-
+      A child says life with Mom and Dad is happy. Then a day arrives when an important decision
+      has to be made. Step into that moment and choose, as the picture of a peaceful household
+      takes on a darker meaning.
+
+  - slug: kimi-ni-shinzou-o-agetai
+    author: ニケ
+    authorUrl: https://novelgame.jp/users/profile/15068
+    sourceRank: 76
+    title: キミに心臓をあげたい
+    titleKana: きみにしんぞうをあげたい
+    titleRomanized: Kimi ni Shinzou o Agetai
+    titleEnglish:
+      text: I Want to Give You My Heart
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/15068/s_0_1626623767_1fc8f558238db0e15886ab88571a3fe5_fes.png
+      alt: Cover image for キミに心臓をあげたい
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/5332
+    vndbUrl: null
+    genres:
+      - romance
+      - science-fiction
+      - horror
+    summary: >-
+      An android who says she has no heart helps someone worn down by life recognize their
+      feelings.
+    synopsis: >-
+      Worn down by life and emotionally broken, the protagonist meets U, an android girl who
+      cannot understand their feelings. She says she has no heart. Through their conversations,
+      the protagonist gradually recognizes their own true feelings.
+
+  - slug: omae-no-supacha-de-sekai-o-sukue
+    author: みそ(misosio)
+    authorUrl: https://novelgame.jp/users/profile/17338
+    sourceRank: 24
+    title: お前のスパチャで世界を救え
+    titleKana: おまえのすぱちゃでせかいをすくえ
+    titleRomanized: Omae no Supacha de Sekai o Sukue
+    titleEnglish:
+      text: Save the World with Your Super Chats
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/17338/s_0_1598853093_a1bed3ff655f3f4e7480cd3d2f071cae_fes.jpg
+      alt: Cover image for お前のスパチャで世界を救え
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/3826
+    vndbUrl: null
+    genres:
+      - mystery
+      - simulation
+    summary: >-
+      Your favorite VTuber vanished. You have one week in the past to change her fate.
+    synopsis: >-
+      On August 31, the VTuber you love disappears. Afterward, you wake to find yourself a week
+      before it happened, able to watch her streams again with knowledge of what is coming. Send
+      comments and Super Chats as the days count down. The interactions of an ordinary fan become
+      your chance to influence a future you have already seen go wrong.
+
+  - slug: pyun-pyun-heart-throbbing-endless-love-bakery
+    title: Pyun Pyun Heart Throbbing Endless Love Bakery
+    author: Melty Clown Studio
+    authorUrl: https://melty-clown-studio.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE2MzA5NTc3LmdpZg==/original/zOwVem.gif
+      alt: Cover image for Pyun Pyun Heart Throbbing Endless Love Bakery
+    language: en
+    minimumLevel: null
+    gameUrl: https://melty-clown-studio.itch.io/pyun-pyun-heart-throbbing-endless-love-bakery
+    vndbUrl: null
+    genres:
+      - romance
+      - mystery
+    summary: 'Browser demo: a new bakery owner meets intriguing customers in a town full of mysteries.'
+    synopsis: >-
+      Your bakery is still finding its place in town, but its customers already have your attention. A
+      food critic, a shy delivery person, a childhood friend, and a mysterious detective offer chances
+      for friendship or romance. Talk to the townsfolk and explore on your days off as you uncover
+      what lies behind the familiar setting of Bonnie's Bakery.
+  - slug: icebreakers
+    title: Icebreakers!
+    author: moonlightjammers, chunderfins, NomnomNami, npckc, DonutShoes, HVB
+    authorUrl: https://moonlightjammers.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzIwNjE2MDkzLnBuZw==/original/BfNgVa.png
+      alt: Cover image for Icebreakers!
+    language: en
+    minimumLevel: null
+    gameUrl: https://moonlightjammers.itch.io/icebreakers
+    vndbUrl: null
+    genres:
+      - adventure
+      - fantasy
+      - comedy
+    summary: An Antarctic field exam puts your conversation skills to the test.
+    synopsis: >-
+      Your training at the Jackson Winthrop Academy for the Exploratory Arts has brought you to
+      Antarctica for a field exam. Explore the cold depths and meet the creatures who live there.
+      Quick exchanges of dialogue become your means of breaking the ice as you try to make friends
+      during the expedition.
+  - slug: the-shop-of-good-memories
+    title: The Shop of Good Memories
+    author: npckc
+    authorUrl: https://npckc.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzQ2NjE4NTEucG5n/original/IcTFKu.png
+      alt: Cover image for The Shop of Good Memories
+    language: en
+    minimumLevel: null
+    gameUrl: https://npckc.itch.io/the-shop-of-good-memories
+    vndbUrl: null
+    genres:
+      - slice-of-life
+    summary: Exchange a memory at a shop that asks for one of yours in return.
+    synopsis: >-
+      A shop welcomes visitors with an unusual offer: you may take a good memory if you leave one
+      behind. Contribute a recollection of your own and receive another in exchange. The visit centers
+      on remembering a good time and deciding what you would like to share.
+  - slug: ojisan-to-asobou
+    author: 茶碗蒸し
+    authorUrl: https://novelgame.jp/users/profile/16887
+    sourceRank: 8
+    title: おじさんと遊ぼう
+    titleKana: おじさんとあそぼう
+    titleRomanized: Ojisan to Asobou
+    titleEnglish:
+      text: Let's Play with an Older Guy
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/16887/s_0_1652861173_79ba8749d0ff016c93e510fd0f34228f_fes.gif
+      alt: Cover image for おじさんと遊ぼう
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/6610
+    vndbUrl: null
+    genres:
+      - comedy
+      - horror
+    summary: >-
+      An older stranger slides into an influencer's DMs. Choose how she replies.
+    synopsis: >-
+      Azusa has fifty thousand followers, but one unexpected message is about to demand her
+      attention. An older man has contacted her through social media, and you decide how she
+      answers. Follow their exchange through awkward jokes and increasingly uncomfortable turns,
+      with each reply steering the conversation somewhere different.
+
+  - slug: deitsa-no-makugire
+    author: 神海処
+    authorUrl: https://novelgame.jp/users/profile/21566
+    sourceRank: 40
+    title: デヰツァの幕切れ─蝶華の鳥籠─
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/21566/s_0_1630005646_7308858012063c738785f29b21f79946_fes.png
+      alt: Cover image for デヰツァの幕切れ─蝶華の鳥籠─
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/4997
+    vndbUrl: null
+    genres:
+      - romance
+      - mystery
+      - horror
+    summary: >-
+      Unexplained gifts unsettle a waitress in Taisho-era Japan.
+    synopsis: >-
+      Family circumstances lead a young woman to take a job at a cafe in Taisho-era Japan. Soon
+      she begins receiving puzzling gifts. Troubled by them, she asks a childhood friend for help.
+      Her new working life becomes the setting for a romance with an obsessive edge.
+    # Reading confirmed by the creator: https://senju131313.wixsite.com/fukanagigame/post/yurai
+    titleKana: でいつぁのまくぎれ
+    titleRomanized: Deitsa no Makugire
+    titleEnglish:
+      text: 'The End of the Detour: A Cage of Butterflies and Flowers'
+      status: unofficial
+
+  - slug: mezametara-shiranai-otoko-ga-makuramoto-ni-ita
+    author: ゆきはな
+    authorUrl: https://novelgame.jp/users/profile/13023
+    sourceRank: 95
+    title: 目覚めたら知らない男が枕元にいた
+    titleKana: めざめたらしらないおとこがまくらもとにいた
+    titleRomanized: Mezametara Shiranai Otoko ga Makuramoto ni Ita
+    titleEnglish:
+      text: I Woke Up to a Stranger Beside My Bed
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/13023/s_0_1677910661_3357e7d3ad4b1c1984118bd79bd3429b_fes.png
+      alt: Cover image for 目覚めたら知らない男が枕元にいた
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/7117
+    vndbUrl: null
+    genres:
+      - horror
+      - mystery
+    summary: >-
+      An office worker's secret life as a VTuber meets a stranger smoking beside her bed.
+    synopsis: >-
+      Iroha keeps her VTuber activities hidden from the people around her. One night, she wakes to
+      find an unfamiliar man smoking beside her bed. She does not know who he is or what he wants.
+      His erratic words and behavior unsettle her as she keeps the conversation going and looks
+      for a chance to escape.
+
+  - slug: toutoi-inochi
+    author: 蟹
+    authorUrl: https://novelgame.jp/users/profile/30093
+    sourceRank: 3
+    title: 尊い命
+    titleKana: とうといいのち
+    titleRomanized: Toutoi Inochi
+    titleEnglish:
+      text: Precious Life
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/26396/s_0_1639433018_2ce5ea3364e44fed2408960bfbf8a9c2_fes.png
+      alt: Cover image for 尊い命
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/6053
+    vndbUrl: null
+    genres:
+      - horror
+    summary: >-
+      A disturbing depiction of torture and its cruelty.
+    synopsis: >-
+      A depiction of torture and the cruelty inflicted on its victims.
+
+  - slug: first-kiss-at-a-spooky-soiree
+    title: First Kiss at a Spooky Soiree
+    author: NomnomNami
+    authorUrl: https://nomnomnami.itch.io
+    cover:
+      src: https://img.itch.zone/aW1hZ2UvOTIwMDIvNDM2NTQ2LmdpZg==/original/AlExRN.gif
+      alt: Cover image for First Kiss at a Spooky Soiree
+    language: en
+    minimumLevel: null
+    gameUrl: https://nomnomnami.itch.io/first-kiss-at-a-spooky-soiree
+    vndbUrl: null
+    genres:
+      - fantasy
+      - romance
+      - comedy
+    summary: A light witch goes to a Halloween party hoping for her first kiss.
+    synopsis: >-
+      Marzipan has never kissed anyone. Tonight, the light witch is attending a spooky soiree, and she
+      hopes that might finally change. Meet the party's guests and follow different romantic
+      possibilities as she looks for someone to share her first kiss with.
+  - slug: koushuu-denwa
+    author: 加藤 匠
+    authorUrl: https://novelgame.jp/users/profile/2056
+    sourceRank: 2
+    title: 公衆電話
+    titleKana: こうしゅうでんわ
+    titleRomanized: Koushuu Denwa
+    titleEnglish:
+      text: Phone Booth
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/2056/s_0_1535299917_da189f00fa59df763bf82fbb95ca1e3c_fes.png
+      alt: Cover image for 公衆電話
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/1059
+    vndbUrl: null
+    genres:
+      - mystery
+      - puzzle
+    summary: >-
+      Trapped in a phone booth, you have just three calls to find help.
+    synopsis: >-
+      A man wakes in a locked phone booth with three ten-yen coins and no obvious way out. You
+      choose the numbers to dial, but each call spends one of his chances to reach help. A failed
+      attempt can still teach you a new number or reveal a useful clue. Use that knowledge on your
+      next attempt to piece together what happened and find someone who can get him out.
+
+  - slug: iede-shounen-hokoro-kun
+    author: 乃花こより（cream△）
+    authorUrl: https://novelgame.jp/users/profile/1352
+    sourceRank: 74
+    title: 家出少年ほころくん
+    titleKana: いえでしょうねんほころくん
+    titleRomanized: Iede Shounen Hokoro-kun
+    titleEnglish:
+      text: Runaway Boy Hokoro
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/1352/s_0_1613631437_31e8433335cf04e172005822cc92ab38_fes.png
+      alt: Cover image for 家出少年ほころくん
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/4641
+    vndbUrl: null
+    genres:
+      - horror
+      - mystery
+    summary: >-
+      An eight-year-old actor rehearses being a runaway with a suspicious stranger as his host.
+    synopsis: >-
+      Hokoro is preparing for a film audition by running away from home. A university student he
+      met online takes him in. The eight-year-old actor spends seven days with his suspicious
+      host, pretending to be a runaway as part of his preparation for the role.
+
+  - slug: rabukome-suitchi
+    author: 埃ん
+    authorUrl: https://novelgame.jp/users/profile/82993
+    sourceRank: 11
+    title: ラブコメスイッチ
+    titleKana: らぶこめすいっち
+    titleRomanized: Rabukome Suitchi
+    titleEnglish:
+      text: Romantic Comedy Switch
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/82993/s_0_1780583781_405da2539c688418289bd9fafd8027b0_fes.jpg
+      alt: Cover image for ラブコメスイッチ
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/14081
+    vndbUrl: null
+    genres:
+      - romance
+      - comedy
+      - horror
+    summary: >-
+      Pursue a crush whose reactions change with your protagonist's gender.
+    synopsis: >-
+      Choose your protagonist's gender and discover how it changes the way a potential partner
+      responds to you. Work out what to say as you try to grow closer to him. Flirtation and
+      comedy can give way to violence or horror, making the path toward a happy relationship less
+      predictable than it first appears.
+
+  - slug: kimi-no-nisemono-ni-koi-o-suru
+    author: ニケ
+    authorUrl: https://novelgame.jp/users/profile/15068
+    sourceRank: 4
+    title: キミのニセモノに恋をする
+    titleKana: きみのにせものにこいをする
+    titleRomanized: Kimi no Nisemono ni Koi o Suru
+    titleEnglish:
+      text: Falling in Love with Your Double
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/15068/s_0_1643471945_5635fa67e3d8f27e38ce08ccce419a70_fes.jpg
+      alt: Cover image for キミのニセモノに恋をする
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/6233
+    vndbUrl: null
+    genres:
+      - romance
+      - mystery
+      - horror
+    summary: >-
+      A year after his girlfriend vanishes, a man meets her lookalike.
+    synopsis: >-
+      Setsuna disappeared a year ago. When her boyfriend returns to the place where they first
+      spoke, he meets Towa, a woman with an almost identical face. Their encounter opens a romance
+      mystery around the resemblance to his missing girlfriend.
+
+  - slug: you-gotta-be-kitten-me-draft
+    title: You Gotta Be Kitten Me Draft
+    author: chiralal0
+    authorUrl: https://chiralal0.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE4NDU3Nzk2LnBuZw==/original/gNswdj.png
+      alt: Cover image for You Gotta Be Kitten Me Draft
+    language: en
+    minimumLevel: null
+    gameUrl: https://chiralal0.itch.io/you-gotta-be-kitten-me-draft
+    vndbUrl: null
+    genres:
+      - fantasy
+      - adventure
+    summary: A girl and her cat begin a fight against spirits.
+    synopsis: >-
+      A girl and her cat face spirits together in the opening of a supernatural adventure. This early
+      story introduces their fight and the pair at its center, following a human and feline team into
+      trouble beyond the ordinary world.
+  - slug: the-cookie-project
+    title: The Cookie Project
+    author: Vanade [ Hamilton Hour ]
+    authorUrl: https://hamiltonhour.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE0NTE3MTYwLmdpZg==/original/XT%2B3YF.gif
+      alt: Cover image for The Cookie Project
+    language: en
+    minimumLevel: null
+    gameUrl: https://hamiltonhour.itch.io/the-cookie-project
+    vndbUrl: null
+    genres:
+      - romance
+      - science-fiction
+      - slice-of-life
+    summary: A Guardian asks a busy baker for help with holiday cookies.
+    synopsis: >-
+      The holidays keep your small bakery in the Last City busy with all sorts of customers. Then
+      Cepheus, an Awoken Guardian carrying an unusual device, arrives to ask for help with his holiday
+      baking. Work through the encounter and get to know him, choosing whether the connection becomes
+      friendship or romance in this Destiny 2 fan story.
+  - slug: mujintou
+    author: 加藤 匠
+    authorUrl: https://novelgame.jp/users/profile/2056
+    sourceRank: 9
+    title: 無人島
+    titleKana: むじんとう
+    titleRomanized: Mujintou
+    titleEnglish:
+      text: Deserted Island
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/2056/s_0_1567094318_9c1fb4873368b2444f048909f1e5365e_fes.png
+      alt: Cover image for 無人島
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/2306
+    vndbUrl: null
+    genres:
+      - adventure
+    summary: >-
+      Choose one item to wash ashore with you, then discover the life it makes possible.
+    synopsis: >-
+      A man wakes on a deserted island beside the one object you chose to bring. That choice
+      shapes what happens next: how he survives, whether he can return home, and whether he can
+      find happiness there. Try different answers to the familiar desert-island question and
+      discover how a single possession can change the course of a life.
+
+  - slug: dekoreito-dekoreishon
+    author: 金庫堂
+    authorUrl: https://novelgame.jp/users/profile/34873
+    sourceRank: 38
+    title: でこれいと・でこれいしょん
+    titleKana: でこれいと でこれいしょん
+    titleRomanized: Dekoreito Dekoreishon
+    titleEnglish:
+      text: Decorate Decoration
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/34873/s_0_1693486691_f005bfa60a17449e128a65798d18c976_fes.png
+      alt: Cover image for でこれいと・でこれいしょん
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/8571
+    vndbUrl: null
+    genres:
+      - romance
+      - horror
+    summary: >-
+      A new ghost refuses to enter heaven without the person they love.
+    synopsis: >-
+      You have become a ghost and expect to reach heaven. But the thought of going there without
+      the person you love is unbearable. Unable to visit them anymore, you decide to bring them to
+      your side instead. Before heaven's doors open, you set out to be together again.
+
+  - slug: the-breakup
+    title: The Breakup
+    author: DragonQuills
+    authorUrl: https://dragonquills.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzgyOTQ3MjAucG5n/original/X7d9pE.png
+      alt: Cover image for The Breakup
+    language: en
+    minimumLevel: null
+    gameUrl: https://dragonquills.itch.io/the-breakup
+    vndbUrl: null
+    genres:
+      - slice-of-life
+      - drama
+    summary: Answer a longtime friend's late-night call during a difficult breakup.
+    synopsis: >-
+      You have known Casper since middle school, but lately he has seemed withdrawn and unhappy. When
+      he calls in the middle of the night asking for help, you go to support him. Through your
+      conversation, help him get through a difficult evening shaped by an unhealthy relationship and
+      questions about how he understands himself.
+  - slug: konbini-ni-kuru-jouren-san
+    author: ながまる
+    authorUrl: https://novelgame.jp/users/profile/41598
+    sourceRank: 18
+    title: コンビニに来る常連さん
+    titleKana: こんびににくるじょうれんさん
+    titleRomanized: Konbini ni Kuru Jouren-san
+    titleEnglish:
+      text: The Convenience Store Regular
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/41598/s_0_1695396746_b1aa061b256043969a6e2d9a7b338620_fes.png
+      alt: Cover image for コンビニに来る常連さん
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/8819
+    vndbUrl: null
+    genres:
+      - horror
+    summary: >-
+      The same customer keeps visiting your store, and familiarity starts to feel threatening.
+    synopsis: >-
+      Working at a convenience store means getting used to familiar faces. One regular, however,
+      begins to make those ordinary shifts feel less and less safe. Follow the encounters as a
+      familiar customer's attention threatens the protagonist's peaceful life.
+
+  - slug: meido-san-to-tsunagaritai
+    author: 茶碗蒸し
+    authorUrl: https://novelgame.jp/users/profile/16887
+    sourceRank: 50
+    title: メイドさんと繋がりたい
+    titleKana: めいどさんとつながりたい
+    titleRomanized: Meido-san to Tsunagaritai
+    titleEnglish:
+      text: I Want to Connect with the Maid
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/16887/s_0_1602815585_eb1f0878460483186e1bc26d47197451_fes.jpg
+      alt: Cover image for メイドさんと繋がりたい
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/3470
+    vndbUrl: null
+    genres:
+      - romance
+      - simulation
+    summary: >-
+      Fall for a maid-cafe employee whose workplace forbids exchanging contact details with
+      customers.
+    synopsis: >-
+      Dragged to a maid cafe by a friend, a reluctant anime fan falls for Ichigo and starts
+      visiting every week. He wants to know her beyond the cafe, but employees are forbidden to
+      exchange personal contact details with customers. Get closer through their visits while
+      navigating that boundary: asking too much, too soon can get him barred from the place where
+      they met.
+
+  - slug: tesuto-gaeshi
+    author: ニケ
+    authorUrl: https://novelgame.jp/users/profile/15068
+    sourceRank: 27
+    title: テスト返し
+    titleKana: てすとがえし
+    titleRomanized: Tesuto Gaeshi
+    titleEnglish:
+      text: Returning the Tests
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/15068/s_0_1651855396_710e8d61266b9b41095437ed5cd51b07_fes.png
+      alt: Cover image for テスト返し
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/6579
+    vndbUrl: null
+    genres:
+      - horror
+      - mystery
+    summary: >-
+      A teacher starts handing back tests. An ordinary classroom scene turns dark.
+    synopsis: >-
+      The teacher announces that it is time to return the class's tests. Listen to what the
+      teacher has to say as a familiar school routine becomes the setting for a horror mystery.
+
+  - slug: goodbyes
+    title: goodbyes
+    author: Fulmen
+    authorUrl: https://f-ulmen.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzc2MDY0NTUucG5n/original/7%2BA2Sw.png
+      alt: Cover image for goodbyes
+    language: en
+    minimumLevel: null
+    gameUrl: https://f-ulmen.itch.io/goodbyes
+    vndbUrl: null
+    genres:
+      - romance
+      - drama
+    summary: An invitation gives Alex one last evening with a friend who is moving away.
+    synopsis: >-
+      Alex has not seen her best friend Naomi for weeks when a message finally arrives. Naomi wants
+      her to come over because she is moving the next day. With so much still unspoken between them,
+      this visit becomes Alex's final opportunity to see her friend before the move and face the
+      feelings she has not expressed.
+  - slug: yume-mo-sugara-hana-arashi
+    author: 六夏／NUMBER7
+    authorUrl: https://novelgame.jp/users/profile/11567
+    sourceRank: 57
+    title: 夢もすがら花嵐
+    titleKana: ゆめもすがらはなあらし
+    titleRomanized: Yume mo Sugara Hana Arashi
+    titleEnglish:
+      text: A Storm of Blossoms Through the Dream
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/11567/s_0_1602488284_a1cb629a8578d7dcb7a043fd0bc01c76_fes.png
+      alt: Cover image for 夢もすがら花嵐
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/1705
+    vndbUrl: null
+    genres:
+      - fantasy
+      - puzzle
+      - adventure
+    summary: >-
+      Wander through dreams beside a baku, a creature that feeds on them.
+    synopsis: >-
+      Explore a dream world with a baku as your companion. Search its Japanese-style surroundings
+      and work through puzzles as you wander through dreams together.
+
+  - slug: boku-dake-ga-shitte-iru
+    author: ニケ
+    authorUrl: https://novelgame.jp/users/profile/15068
+    sourceRank: 32
+    title: ボクだけがしっている
+    titleKana: ぼくだけがしっている
+    titleRomanized: Boku Dake ga Shitte Iru
+    titleEnglish:
+      text: Only I Know
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/15068/s_0_1666467966_0cbbb7ed09d5b9a8d53424f6c83da2a2_fes.jpg
+      alt: Cover image for ボクだけがしっている
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/7327
+    vndbUrl: null
+    genres:
+      - romance
+      - drama
+    summary: >-
+      A hospital friend is meeting a man from social media, and Akira is worried.
+    synopsis: >-
+      Akira has finally left the hospital after a long stay, but he is still thinking about
+      Misaki, a university student he met there. She has grown close to a man online and plans to
+      meet him in person. Akira worries about the meeting and what it could mean for his hospital
+      friend.
+
+  - slug: reincarnated-as-a-farm-girl-a-queen-bees-second-life
+    title: 'Reincarnated as a Farm Girl?!: A Queen Bee''s Second Life'
+    author: Dragon Theory Games
+    authorUrl: https://dragontheorygames.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzIwNzE4MjIxLnBuZw==/original/NoA3qq.png
+      alt: 'Cover image for Reincarnated as a Farm Girl?!: A Queen Bee''s Second Life'
+    language: en
+    minimumLevel: null
+    gameUrl: https://dragontheorygames.itch.io/reincarnated-as-a-farm-girl-a-queen-bees-second-life
+    vndbUrl: null
+    genres:
+      - fantasy
+      - romance
+    summary: A former queen bee meets her beekeeper again in a new human life.
+    synopsis: >-
+      After a lifetime spent ruling a hive, a queen bee expects her story to end. Instead, she wakes
+      as a human with unfamiliar foods to taste and places to explore. She can finally meet the
+      beekeeper who protected her colony, but he is struggling with his own future. Their meeting
+      gives her a chance to help him in return.
+  - slug: her-tears-were-my-light
+    title: her tears were my light
+    author: NomnomNami
+    authorUrl: https://nomnomnami.itch.io
+    cover:
+      src: https://img.itch.zone/aW1hZ2UvNTkzMjUvODE2MzY3LmdpZg==/original/PgAu5o.gif
+      alt: Cover image for her tears were my light
+    language: en
+    minimumLevel: null
+    gameUrl: https://nomnomnami.itch.io/her-tears-were-my-light
+    vndbUrl: null
+    genres:
+      - fantasy
+      - romance
+    summary: Use Time's power to reach Space through her loneliness.
+    synopsis: >-
+      Time can move forward, turn back, and return to earlier points in her story. Space is lonely,
+      and Time hopes that this power can help her. Follow their relationship while revisiting the
+      moments that shape it, exploring how a different turn through the same events might change their
+      connection.
+  - slug: sodateru-no-tte-muzukashii
+    author: こういうもの
+    authorUrl: https://novelgame.jp/users/profile/20719
+    sourceRank: 26
+    title: 育てるのって難しい！
+    titleKana: そだてるのってむずかしい！
+    titleRomanized: Sodateru no tte Muzukashii!
+    titleEnglish:
+      text: Raising Someone Is Hard!
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/20719/s_0_1661171273_d26d288c10797bc52529aaa3b8b86ecb_fes.png
+      alt: Cover image for 育てるのって難しい！
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/6985
+    vndbUrl: null
+    genres:
+      - science-fiction
+      - simulation
+      - horror
+    summary: >-
+      Raise a child by altering genes and administering suspiciously reassuring medicine.
+    synopsis: >-
+      Caring for a child takes a disturbing form when genetic experiments and supposedly safe
+      medicine are among your options. Decide how to raise them using methods that blur the
+      boundary between nurturing a life and manipulating it. The child grows under your care,
+      bearing the consequences of experiments presented as ordinary parenting choices.
+
+  - slug: swan
+    title: Swan
+    author: Tea and Torment
+    authorUrl: https://tea-and-torment.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzY1NDMyMTQucG5n/original/cdgRDI.png
+      alt: Cover image for Swan
+    language: en
+    minimumLevel: null
+    gameUrl: https://tea-and-torment.itch.io/swanvn
+    vndbUrl: null
+    genres:
+      - drama
+      - mystery
+    summary: A performer loses consciousness on a train and awakens somewhere unfamiliar.
+    synopsis: >-
+      Melanie is taking the train to an outdoor live show where she is due to perform. On the way, she
+      suddenly blacks out. When she comes to, she finds herself in a strange place, far removed from
+      the journey she thought she was making.
+  - slug: yandere-esukeepu
+    author: 瀬川
+    authorUrl: https://novelgame.jp/users/profile/40937
+    sourceRank: 59
+    title: ヤンデレ・エスケープ
+    titleKana: やんでれ えすけーぷ
+    titleRomanized: Yandere Esukeepu
+    titleEnglish:
+      text: Yandere Escape
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/40937/s_0_1701954943_b8531148de8208395f0b16dc52698553_fes.png
+      alt: Cover image for ヤンデレ・エスケープ
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/9081
+    vndbUrl: null
+    genres:
+      - romance
+      - horror
+    summary: >-
+      One admirer uses force, another money. Both want to keep you within reach.
+    synopsis: >-
+      One suitor is willing to hurt people to protect you; another will spend whatever it takes to
+      have you. Their devotion comes backed by strength, wealth, and influence, making refusal
+      difficult. Navigate their attention while looking for a way out of relationships where
+      affection is another means of control.
+
+  - slug: zashikirou-kara-no-dasshutsu
+    author: カモメダカ
+    authorUrl: https://novelgame.jp/users/profile/1169
+    sourceRank: 69
+    title: 座敷牢からの脱出
+    titleKana: ざしきろうからのだっしゅつ
+    titleRomanized: Zashikirou kara no Dasshutsu
+    titleEnglish:
+      text: Escape from the Confinement Room
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/1169/s_0_1515634328_f8346eed2b133e69567e005ed3ad706b_fes.jpg
+      alt: Cover image for 座敷牢からの脱出
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/590
+    vndbUrl: null
+    genres:
+      - puzzle
+      - horror
+    summary: >-
+      Wake in a village's locked room and escape before you become a ritual sacrifice.
+    synopsis: >-
+      You regain consciousness inside a barred room in an old village house. Remaining there could
+      mean being offered as a sacrifice. Search the unfamiliar building and solve the obstacles
+      keeping you confined, with the approaching ritual giving you every reason to leave.
+
+  - slug: bukkyou-yougo-kinshi-kuesuto
+    author: がっかり亭
+    authorUrl: https://novelgame.jp/users/profile/40135
+    sourceRank: 56
+    title: 仏教用語禁止クエスト
+    titleKana: ぶっきょうようごきんしくえすと
+    titleRomanized: Bukkyou Yougo Kinshi Kuesuto
+    titleEnglish:
+      text: The No-Buddhist-Terms Quest
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/40135/s_0_1767018685_014b533e8afb425897a83352b76b204e_fes.jpg
+      alt: Cover image for 仏教用語禁止クエスト
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/12964
+    vndbUrl: null
+    genres:
+      - fantasy
+      - puzzle
+      - comedy
+    summary: >-
+      Defeat a demon ruler in a world where Buddhist-derived words can kill you.
+    synopsis: >-
+      A truck accident sends you to a fantasy world with a lethal rule: say a word derived from
+      Buddhism, and the world itself will punish you with death. You still have a demon ruler to
+      defeat, but even the usual Japanese word for that enemy is forbidden. Navigate the quest by
+      recognizing the hidden religious origins of otherwise familiar vocabulary.
+
+  - slug: the-inbetween
+    title: The Inbetween
+    author: Hyakuten Games, rosemask22, seraten04
+    authorUrl: https://hyakuten-games.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE1NTIxOTE2LnBuZw==/original/41sUtM.png
+      alt: Cover image for The Inbetween
+    language: en
+    minimumLevel: null
+    gameUrl: https://hyakuten-games.itch.io/the-inbetween
+    vndbUrl: null
+    genres:
+      - fantasy
+      - romance
+    summary: Wake in an underworld cocktail bar whose owner has a proposal.
+    synopsis: >-
+      You awaken in a welcoming cocktail bar, then discover that it stands at the entrance to Hell.
+      The Inbetween receives souls who enjoyed themselves in life, and its owner, the Hellion, seems
+      especially interested in you. His attention comes with a proposal that turns this stop in the
+      afterlife into a personal encounter.
+  - slug: amnnesia
+    author: Sherlock
+    authorUrl: https://novelgame.jp/users/profile/24083
+    sourceRank: 96
+    title: AMN(N)ESIA
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/24083/s_0_1633691455_855945a66a61f8e1e22ccc9e73682d50_fes.png
+      alt: Cover image for AMN(N)ESIA
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/5687
+    vndbUrl: null
+    genres:
+      - mystery
+      - puzzle
+      - science-fiction
+    summary: >-
+      A detective's next case takes place inside an unconscious girl's mind.
+    synopsis: >-
+      Dr. Bell urgently needs a detective for an unusual investigation. His experimental therapy
+      allows someone to enter another person's mind, and his patient is an unconscious girl.
+      Descend into her mental world and merge with her awareness. The mysteries you need to solve
+      are inside her consciousness, and resolving them is your route back out.
+
+  - slug: kore-ga-anata-no-shigoto-desu
+    author: よよのとの
+    authorUrl: https://novelgame.jp/users/profile/43667
+    sourceRank: 87
+    title: これがあなたの仕事です
+    titleKana: これがあなたのしごとです
+    titleRomanized: Kore ga Anata no Shigoto desu
+    titleEnglish:
+      text: This Is Your Job
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/43667/s_0_1724691578_3a37992ab792c7ffbefbc2fc85936685_fes.png
+      alt: Cover image for これがあなたの仕事です
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/10371
+    vndbUrl: null
+    genres:
+      - horror
+      - mystery
+    summary: >-
+      Investigate strange creatures while unexplained letters arrive at a disturbing workplace.
+    synopsis: >-
+      A new job involves investigating mysterious creatures. Cryptic letters arrive every day,
+      lives are treated cruelly, and a mysterious girl adds another question. Can the protagonist
+      finish the work safely?
+
+  - slug: where-theres-a-will
+    title: Where There's a Will...
+    author: justacarrot
+    authorUrl: https://justacarrot.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE2OTA5MjA4LnBuZw==/original/E0r%2B%2F8.png
+      alt: Cover image for Where There's a Will...
+    language: en
+    minimumLevel: null
+    gameUrl: https://justacarrot.itch.io/where-theres-a-will
+    vndbUrl: null
+    genres:
+      - fantasy
+      - romance
+    summary: A pawn finds his troubled Arisen among glowing flowers.
+    synopsis: >-
+      Genzou comes across Iggy, his Arisen, in a field of moonglow at night. Something about Iggy's
+      manner seems wrong, and Genzou wants to understand what is troubling him. Their conversation
+      brings affection into contact with duty and the question of a pawn's own will, in a fantasy
+      encounter inspired by Dragon's Dogma 2.
+  - slug: dreamsy-tea
+    title: Dreamsy Tea
+    author: Starrulet
+    authorUrl: https://starrulet.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzIxMTg2ODEzLnBuZw==/original/artkqi.png
+      alt: Cover image for Dreamsy Tea
+    language: en
+    minimumLevel: null
+    gameUrl: https://starrulet.itch.io/dreamsy-tea
+    vndbUrl: null
+    genres:
+      - fantasy
+      - adventure
+    summary: Drink tea and wander through the peculiar world of Dream City.
+    synopsis: >-
+      There is something that drinking tea is supposed to fix, though exactly what that is remains
+      uncertain. Explore Dream City in a short, dreamlike excursion whose premise mixes an everyday
+      drink with an unfamiliar place.
+  - slug: appaku-mensetsu-geemu-onsha-no-inu-ni-narimasu
+    author: やなこ
+    authorUrl: https://novelgame.jp/users/profile/28440
+    sourceRank: 99
+    title: 圧迫面接ゲーム　～御社の犬になります～
+    titleKana: あっぱくめんせつげーむ おんしゃのいぬになります
+    titleRomanized: 'Appaku Mensetsu Geemu: Onsha no Inu ni Narimasu'
+    titleEnglish:
+      text: 'Pressure Interview: I''ll Be Your Company''s Dog'
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/28440/s_0_1645964807_50483cbed8f19eae163d8867a21b67f3_fes.jpg
+      alt: Cover image for 圧迫面接ゲーム　～御社の犬になります～
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/6333
+    vndbUrl: null
+    genres:
+      - simulation
+      - comedy
+    summary: >-
+      Endure a hostile interview without surrendering yourself to the company.
+    synopsis: >-
+      An interviewer puts you under pressure, and you have to decide how much to bend to their
+      demands. Choose your responses through an abrasive job interview built around a bitter joke:
+      becoming the company's dog means losing. Try to get through the encounter with more than an
+      eagerness to please.
+
+  - slug: talking-mea
+    author: RaBiCOFFEE
+    authorUrl: https://novelgame.jp/users/profile/39511
+    sourceRank: 93
+    title: TALKING◎mea
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/39511/s_0_1692005100_7b9a25fece3c04843648442706f4d18a_fes.png
+      alt: Cover image for TALKING◎mea
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/8476
+    vndbUrl: null
+    genres:
+      - slice-of-life
+      - simulation
+    summary: >-
+      Skip class with a habitually absent senior and spend the time talking instead.
+    synopsis: >-
+      You do not feel like going to class, and a senior known for skipping lessons appears at just
+      the right moment. Decide whether to join her. An ordinary school day becomes a chance to put
+      lessons aside and enjoy a relaxed conversation.
+
+  - slug: matchingu-apuri-de-deaichuu-shite-mita
+    author: 茶碗蒸し
+    authorUrl: https://novelgame.jp/users/profile/16887
+    sourceRank: 15
+    title: マッチングアプリで出会い厨してみた
+    titleKana: まっちんぐあぷりでであいちゅうしてみた
+    titleRomanized: Matchingu Apuri de Deaichuu Shite Mita
+    titleEnglish:
+      text: I Tried Finding Dates on a Matchmaking App
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/16887/s_0_1619664960_b834f50aa48486fb3456216202f016d3_fes.png
+      alt: Cover image for マッチングアプリで出会い厨してみた
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/4960
+    vndbUrl: null
+    genres:
+      - romance
+      - horror
+      - simulation
+    summary: >-
+      A shy student has seven free days on a dating app to find his first girlfriend.
+    synopsis: >-
+      A withdrawn university student joins a dating app, hoping to begin his first relationship.
+      The free trial gives him a week to meet women and make a connection. Choose how he handles
+      those encounters as awkward introductions develop into possible romances. The search can
+      take a darker turn, and the person he thinks he is getting to know may not be what he
+      expected.
+
+  - slug: shadow-cat-cafe
+    title: Shadow Cat Cafe
+    author: AnnyQueen178
+    authorUrl: https://annyqueen178.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE3MTI2MTY2LnBuZw==/original/nATA2c.png
+      alt: Cover image for Shadow Cat Cafe
+    language: en
+    minimumLevel: null
+    gameUrl: https://annyqueen178.itch.io/shadow-cat-cafe
+    vndbUrl: null
+    genres:
+      - fantasy
+      - puzzle
+    summary: Look for cats concealed around a witch-themed cafe.
+    synopsis: >-
+      Cats are hiding in a cafe filled with a witchy atmosphere. Search the setting and find the
+      animals tucked away around it. This small visual novel combines its cafe visit with a
+      hidden-object search focused on the resident cats.
+  - slug: cat-likes-you
+    author: 蟹
+    authorUrl: https://novelgame.jp/users/profile/30093
+    sourceRank: 20
+    title: cat likes you
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/26396/s_0_1640856621_fa46d7c5c700ea37f2ac84a223cbd0ee_fes.png
+      alt: Cover image for cat likes you
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/6109
+    vndbUrl: null
+    genres:
+      - simulation
+      - slice-of-life
+    summary: >-
+      When a cat's owner loses their sight, the cat becomes the breadwinner.
+    synopsis: >-
+      A cat's owner has lost their sight and their job. Supporting the household now falls to the
+      cat, who has to enter the working world.
+
+  - slug: kaibutsu-okotowari
+    author: 6月
+    authorUrl: https://novelgame.jp/users/profile/11813
+    sourceRank: 60
+    title: 怪物お断り！
+    titleKana: かいぶつおことわり！
+    titleRomanized: Kaibutsu Okotowari!
+    titleEnglish:
+      text: No Monsters Allowed!
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/11813/s_0_1703923071_b12263550fe2cf130a3b2f2f2363bc64_fes.jpg
+      alt: Cover image for 怪物お断り！
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/9174
+    vndbUrl: null
+    genres:
+      - fantasy
+      - mystery
+      - comedy
+    summary: >-
+      Expose the troublesome men visiting your maid cafe on Halloween.
+    synopsis: >-
+      Halloween brings unwelcome customers to a maid cafe. Find out who the troublesome men really
+      are, then drive them out.
+
+  - slug: yume-no-tobira-to-yandere-o-bukkowasu-botan
+    author: 冬弥雪
+    authorUrl: https://novelgame.jp/users/profile/14788
+    sourceRank: 61
+    title: 夢の扉とヤンデレをぶっ壊すボタン
+    titleKana: ゆめのとびらとやんでれをぶっこわすぼたん
+    titleRomanized: Yume no Tobira to Yandere o Bukkowasu Botan
+    titleEnglish:
+      text: Dream Doors and the Button That Breaks Yandere
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/14788/s_0_1711808983_2a76f3732413a338ce6600556c0559dd_fes.png
+      alt: Cover image for 夢の扉とヤンデレをぶっ壊すボタン
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/9591
+    vndbUrl: null
+    genres:
+      - romance
+      - fantasy
+      - comedy
+    summary: >-
+      Meet obsessive suitors behind six dream doors—and press a button to derail their behavior.
+    synopsis: >-
+      You seem to wake inside a dream containing six doors. Beyond them, encounters with gloomy,
+      possessive characters await. Among your responses is a peculiar button that lets you disrupt
+      their behavior. Try different responses and see what happens in this strange dream.
+
+  - slug: its-not-a-game-about-bread
+    title: it's not a game about bread
+    author: rina samehawke
+    authorUrl: https://samehawke.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE2ODQ0NTU4LnBuZw==/original/0cNtZD.png
+      alt: Cover image for it's not a game about bread
+    language: en
+    minimumLevel: null
+    gameUrl: https://samehawke.itch.io/its-not-a-game-about-bread
+    vndbUrl: null
+    genres:
+      - mystery
+      - horror
+    summary: Lost outside a strange bakery, you encounter an unfamiliar girl.
+    synopsis: >-
+      You are lost, and the bakery in front of you does not look entirely ordinary. A strange girl
+      adds another question to the encounter. Follow the meeting outside the shop in a brief
+      psychological horror story that leaves the next step in your hands.
+  - slug: dotokoi
+    author: 黒城ろこ
+    authorUrl: https://novelgame.jp/users/profile/234
+    sourceRank: 72
+    title: ドトコイ
+    titleKana: どとこい
+    titleRomanized: Dotokoi
+    titleEnglish:
+      text: DOTOKOI
+      status: official
+      sourceUrl: https://store.steampowered.com/app/1198320/DOTOKOI/
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/234/s_0_1598271385_8f43c182fb3db7544d5e9d6a90b12e8a_fes.png
+      alt: Cover image for ドトコイ
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/2426
+    vndbUrl: null
+    genres:
+      - romance
+      - comedy
+    summary: >-
+      A curse turns handsome boys into colored blocks. Affection slowly brings them into focus.
+    synopsis: >-
+      On the way to her new school, a girl bumps into a talking block of color. A curse has
+      reduced the resolution of handsome boys, leaving her unable to see them properly. Get to
+      know her potential partners through conversation and build their affection. As each
+      relationship develops, the indistinct block gradually becomes a recognizable face.
+
+  - slug: kurieitaazu-desu-geemu
+    author: 茶碗蒸し
+    authorUrl: https://novelgame.jp/users/profile/16887
+    sourceRank: 85
+    title: クリエイターズ・デスゲーム
+    titleKana: くりえいたーず ですげーむ
+    titleRomanized: Kurieitaazu Desu Geemu
+    titleEnglish:
+      text: Creators' Death Game
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/16887/s_0_1733538812_165bf74104a13b1656d55aada973efa1_fes.jpg
+      alt: Cover image for クリエイターズ・デスゲーム
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/9978
+    vndbUrl: null
+    genres:
+      - horror
+      - mystery
+      - adventure
+    summary: >-
+      Six creators are locked together with career-ending secrets. Only one will leave alive.
+    synopsis: >-
+      A mysterious VTuber forces six creators into a contest of public exposure. Each has a
+      scandal that would destroy their career if it came to light. Collect evidence of the others'
+      wrongdoing and turn it against them while your own secrets remain at risk. With only one
+      survivor allowed, the people trapped beside you are both witnesses and potential targets.
+
+  - slug: danzaishitsu
+    author: IEOI
+    authorUrl: https://novelgame.jp/users/profile/24159
+    sourceRank: 14
+    title: 断罪室
+    titleKana: だんざいしつ
+    titleRomanized: Danzaishitsu
+    titleEnglish:
+      text: The Judgment Room
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/24159/s_0_1636812196_80243319365f3881450944a085089ac7_fes.png
+      alt: Cover image for 断罪室
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/5697
+    vndbUrl: null
+    genres:
+      - horror
+      - drama
+    summary: >-
+      Listen to an accusation, then decide whether the accuser may kill in revenge.
+    synopsis: >-
+      Two people appear before you: one claims to have been wronged, and the other stands accused.
+      Hear their exchange and decide whether revenge is justified. Your verdict is no abstract
+      judgment—permission means allowing the accuser to execute the person they blame. Weigh what
+      each says while trying to remain neutral in a room where your decision can cost a life.
+
+  - slug: how-to-win-girls-and-influence-people
+    title: How to Win Girls and Influence People
+    author: RizVN
+    authorUrl: https://rizvn.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE0MjA0MTkwLnBuZw==/original/6JABzI.png
+      alt: Cover image for How to Win Girls and Influence People
+    language: en
+    minimumLevel: null
+    gameUrl: https://rizvn.itch.io/win-girls
+    vndbUrl: null
+    genres:
+      - romance
+      - comedy
+      - slice-of-life
+    summary: 'Browser demo: Cale returns to his hometown and meets three potential romantic partners.'
+    synopsis: >-
+      Cale moves back to his hometown to live with his grandmother and begins meeting the people
+      around him. Nayuna hides her loneliness behind a prickly manner, Aika wants to be useful to her
+      friends, and Hasumi struggles to fit in. Follow his conversations and choices as these new
+      connections develop into friendships and possible romances.
+
+  - slug: eipuriru-tantei-jimusho
+    author: 水季
+    authorUrl: https://novelgame.jp/users/profile/68703
+    sourceRank: 21
+    title: エイプリル探偵事務所
+    titleKana: えいぷりるたんていじむしょ
+    titleRomanized: Eipuriru Tantei Jimusho
+    titleEnglish:
+      text: April Detective Agency
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/68703/s_0_1744775412_d8cd773af75bbe734f58ec1c17b7f3c7_fes.jpg
+      alt: Cover image for エイプリル探偵事務所
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/11499
+    vndbUrl: null
+    genres:
+      - mystery
+      - comedy
+    summary: >-
+      Nine cases, straight to the accusation: name the culprit without investigating.
+    synopsis: >-
+      You are a capable but unremarkable detective facing nine difficult cases. Skip the lengthy
+      briefings and painstaking investigation to go straight to accusing the culprit. The familiar
+      detective reveal becomes a rapid-fire comedy.
+
+  - slug: suki-da
+    author: 塩原しのぎ
+    authorUrl: https://novelgame.jp/users/profile/13052
+    sourceRank: 10
+    title: 好きだ！
+    titleKana: すきだ！
+    titleRomanized: Suki da!
+    titleEnglish:
+      text: I Like You!
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/13052/s_0_1588251737_5aefc2ba83aa3ad8351a04af5ead1e60_fes.png
+      alt: Cover image for 好きだ！
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/3232
+    vndbUrl: null
+    genres:
+      - romance
+      - comedy
+    summary: >-
+      Be the girl who sweeps the boys off their feet—sometimes literally.
+    synopsis: >-
+      The school cultural festival is approaching, and a second-year student has boys to get to
+      know. This time, she gets to do the sweeping off their feet: catch a boy when he stumbles,
+      carry him in your arms, or offer him a piggyback ride. Familiar manga romance scenes become
+      opportunities to take the lead in a gentle school comedy.
+
+  - slug: howdy-pardner
+    title: Howdy, Pardner!
+    author: Zenith, Ali Bun
+    authorUrl: https://zenithzyie.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE0MDY5Mjc4LnBuZw==/original/HFK18z.png
+      alt: Cover image for Howdy, Pardner!
+    language: en
+    minimumLevel: null
+    gameUrl: https://zenithzyie.itch.io/howdy-pardner
+    vndbUrl: null
+    genres:
+      - romance
+      - adventure
+    summary: The mayor's daughter teams up with an outlaw to escape her town.
+    synopsis: >-
+      When an outlaw woman holds up your stagecoach, you see a possibility beyond the robbery. As the
+      mayor's daughter, you want to leave Crimestead, and together you devise a plan to rob the town
+      bank and flee to Pride Canyon. A chance encounter on the road turns into a shared escape with
+      room for romance.
+  - slug: kyoufu-maccho-shuukyou-kanyuu-oniisan
+    author: 大月おろ
+    authorUrl: https://novelgame.jp/users/profile/38776
+    sourceRank: 41
+    title: 恐怖！マッチョ宗教勧誘おにいさん
+    titleKana: きょうふ！まっちょしゅうきょうかんゆうおにいさん
+    titleRomanized: Kyoufu! Maccho Shuukyou Kanyuu Oniisan
+    titleEnglish:
+      text: Terror! The Muscular Religious Recruiter
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/38776/s_0_1760183854_00b80c33c939983314df9d307d26c98b_fes.png
+      alt: Cover image for 恐怖！マッチョ宗教勧誘おにいさん
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/12574
+    vndbUrl: null
+    genres:
+      - horror
+      - simulation
+    summary: >-
+      A muscular religious recruiter keeps ringing your doorbell. Decide how to deal with him.
+    synopsis: >-
+      Your biggest complaint about home is the man who will not stop trying to convert you. Every
+      ring of the intercom brings another approach from a muscular, persistent recruiter. Answer
+      him, turn him away, or try another response. The choice of whether to open a conversation
+      becomes a recurring confrontation with someone determined to win you over.
+
+  - slug: aru-hi-no-kozame
+    author: ペンギンボックス
+    authorUrl: https://novelgame.jp/users/profile/75573
+    sourceRank: 65
+    title: ある日の子ザメ
+    titleKana: あるひのこざめ
+    titleRomanized: Aru Hi no Kozame
+    titleEnglish:
+      text: A Day with a Little Shark
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/75573/s_0_1750833786_a8df78004e4063b4c8031d53197581bf_fes.png
+      alt: Cover image for ある日の子ザメ
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/11816
+    vndbUrl: null
+    genres:
+      - slice-of-life
+      - adventure
+    summary: Take a little shark on a day out around town.
+    synopsis: >-
+      Go out with a little shark to an aquarium, a park, and an arcade. Play together and see
+      whether you can make it home from the outing.
+
+  - slug: kashite
+    author: ギュドンドンド族の星
+    authorUrl: https://novelgame.jp/users/profile/23892
+    sourceRank: 92
+    title: 「かして。」
+    titleKana: かして
+    titleRomanized: Kashite
+    titleEnglish:
+      text: Lend It to Me
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/23892/s_0_1692160723_a7dccd4b102ac36362c1c728c2c908ba_fes.PNG
+      alt: Cover image for 「かして。」
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/8484
+    vndbUrl: null
+    genres:
+      - horror
+    summary: >-
+      A new neighbor asks to borrow soy sauce. Then the requests keep growing.
+    synopsis: >-
+      Soon after Tanuma moves in, a neighbor named Miura stops by and asks for some soy sauce. It
+      is a small enough favor, but the requests do not end there. Day by day, Miura demands more.
+      Follow an exchange of neighborly goodwill as it becomes an intrusion that is increasingly
+      hard to dismiss.
+
+  - slug: keetosu-gou-ni-matsuwaru-kiroku
+    author: 凡
+    authorUrl: https://novelgame.jp/users/profile/42543
+    sourceRank: 68
+    title: ケートス号にまつわる記録
+    titleKana: けーとすごうにまつわるきろく
+    titleRomanized: Keetosu-gou ni Matsuwaru Kiroku
+    titleEnglish:
+      text: Records Concerning the Ketos
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/42543/s_0_1699187832_3fb6d86f986a1b86e1326e952e9d379e_fes.png
+      alt: Cover image for ケートス号にまつわる記録
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/8962
+    vndbUrl: null
+    genres:
+      - science-fiction
+      - horror
+    summary: >-
+      Condemned prisoners are sent to monitor a submarine whose song drives people mad.
+    synopsis: >-
+      The unmanned submarine Ketos once ended a war. Now it sings a song that drives human
+      listeners mad. To keep watch over it, humanity sends another submarine carrying prisoners
+      sentenced to death. The mission brings people already condemned to die into the presence of
+      a former instrument of victory that has become a threat of its own.
+
+  - slug: hajimemashite-boku-no-kanojo
+    author: ニケ
+    authorUrl: https://novelgame.jp/users/profile/15068
+    sourceRank: 25
+    title: はじめましてボクのカノジョ
+    titleKana: はじめましてぼくのかのじょ
+    titleRomanized: Hajimemashite Boku no Kanojo
+    titleEnglish:
+      text: Nice to Meet You, My Girlfriend
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/15068/s_0_1618732218_fa4322ebfde27cae69ff9e033f51270a_fes.jpg
+      alt: Cover image for はじめましてボクのカノジョ
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/4915
+    vndbUrl: null
+    genres:
+      - romance
+      - mystery
+    summary: >-
+      A woman you do not recognize is waiting outside your apartment.
+    synopsis: >-
+      After work, you return to your apartment to find a woman sitting outside your door. You do
+      not recognize her. Coming home becomes an unexpected encounter with a stranger whose
+      presence needs explaining.
+
+  - slug: 2-29
+    title: 2/29
+    author: npckc
+    authorUrl: https://npckc.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE1MjEyNTAzLmdpZg==/original/TAEVox.gif
+      alt: Cover image for 2/29
+    language: en
+    minimumLevel: null
+    gameUrl: https://npckc.itch.io/229
+    vndbUrl: null
+    genres:
+      - fantasy
+      - adventure
+    summary: Take a strange little journey that comes around once every four years.
+    synopsis: >-
+      February 29 opens the way to a journey that is only possible in a leap year. This small, playful
+      adventure follows that unusual opportunity, turning an extra day on the calendar into an
+      occasion for something out of the ordinary.
+  - slug: ci-tio-estas-ningen-kairyou-keikaku
+    author: 鶏唐ぞうすい
+    authorUrl: https://novelgame.jp/users/profile/25356
+    sourceRank: 89
+    title: Ĉi tio estas…-人間改良計画-
+    titleRomanized: 'Ĉi tio estas...: Ningen Kairyou Keikaku'
+    titleEnglish:
+      text: 'This Is...: The Human Improvement Project'
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/25356/s_0_1692624434_f0e331d19ffd300e53872a925780f6a3_fes.png
+      alt: Cover image for Ĉi tio estas…-人間改良計画-
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/8394
+    vndbUrl: null
+    genres:
+      - science-fiction
+      - horror
+      - simulation
+    summary: >-
+      Aliens want to improve humanity. Your stamp decides which new humans qualify.
+    synopsis: >-
+      Visitors from beyond humanity decide that people are too weak and foolish to manage
+      themselves. Their solution is to redefine what a human should be, promising happiness
+      through tighter control. You are summoned to approve the proposed replacements. Examine them
+      and stamp your decisions, turning a simple administrative task into a role in reshaping the
+      species.
+
+  - slug: mahiru-no-ankoku
+    author: 隷蔵庫
+    authorUrl: https://novelgame.jp/users/profile/1757
+    sourceRank: 63
+    title: 真昼の暗黒
+    titleKana: まひるのあんこく
+    titleRomanized: Mahiru no Ankoku
+    titleEnglish:
+      text: Darkness at Noon
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/1757/s_0_1541373782_4fba0702d0330f99982e8511bdaf1f55_fes.png
+      alt: Cover image for 真昼の暗黒
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/1012
+    vndbUrl: null
+    genres:
+      - mystery
+      - horror
+    summary: >-
+      Misa's sister disappears from their apartment, leaving blood and unanswered questions.
+    synopsis: >-
+      Elementary-school student Misa shares an apartment with her older sister. One day, her
+      sister disappears, leaving a large amount of blood behind. A mysterious counselor assigned
+      to the case becomes involved. Misa's search for whoever took her sister draws them into an
+      increasingly tangled situation.
+
+  - slug: baabon-hausu-e-youkoso
+    author: dfw03dL7h6
+    authorUrl: https://novelgame.jp/users/profile/17829
+    sourceRank: 98
+    title: バーボンハウスへようこそ
+    titleKana: ばーぼんはうすへようこそ
+    titleRomanized: Baabon Hausu e Youkoso
+    titleEnglish:
+      text: Welcome to Bourbon House
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/17829/s_0_1598455509_879a67872be0a53bc6e558f2638ccbab_fes.png
+      alt: Cover image for バーボンハウスへようこそ
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/3846
+    vndbUrl: null
+    genres:
+      - slice-of-life
+      - drama
+    summary: >-
+      Slide a drink to a stranger at the bar and hear the story they have been carrying.
+    synopsis: >-
+      Office worker Wataru likes to buy drinks for interesting people at Bourbon House and listen
+      to what they have to say. Some come for solitude, others to soothe a hurt or sit with a
+      secret. Pick a customer, send a glass along the counter, and settle in for a conversation.
+      An evening at his usual bar opens a window onto someone else's life.
+
+  - slug: her-time-of-the-month
+    title: Her Time of the Month!
+    author: maho_anpu
+    authorUrl: https://maho-anpu.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzIwNTI4NzA4LnBuZw==/original/xzsXp2.png
+      alt: Cover image for Her Time of the Month!
+    language: en
+    minimumLevel: null
+    gameUrl: https://maho-anpu.itch.io/her-time-of-the-month
+    vndbUrl: null
+    genres:
+      - slice-of-life
+      - simulation
+    summary: 'Browser preview through Day 1.5: help a girl through her period as a friend, father, or uncle.'
+    synopsis: >-
+      A girl is dealing with the painful first days of her period, and three people close to her want
+      to help. Play from the perspectives of her childhood friend, her father, and her uncle as they
+      buy supplies, prepare food and drinks, and listen. Their different relationships shape how they
+      offer care and respect her boundaries.
+  - slug: welcome-to-the-library
+    title: Welcome to the Library (working title)
+    author: SmallBirds Games
+    authorUrl: https://smallbirds.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE5NzE3NjY4LmpwZWc=/original/DNmhtw.jpeg
+      alt: Cover image for Welcome to the Library (working title)
+    language: en
+    minimumLevel: null
+    gameUrl: https://smallbirds.itch.io/welcometothelibrary
+    vndbUrl: null
+    genres:
+      - fantasy
+      - mystery
+      - adventure
+    summary: Find your book club's next read as fiction transforms the library around you.
+    synopsis: >-
+      A trip to the library should be enough to find the book your monthly club needs. Instead, the
+      stories on its shelves begin changing the world around you. Choose among three books and enter
+      the genres they represent, with paths that lead toward romance, a crime to solve, or a struggle
+      over your soul.
+  - slug: mob-dakedo-shujinkou-kun-o-suki-ni-natte-mo-ii-desu-ka
+    author: かぷりそふと
+    authorUrl: https://novelgame.jp/users/profile/12918
+    sourceRank: 83
+    title: モブだけど、主人公くんを好きになってもいいですか？
+    titleKana: もぶだけど、しゅじんこうくんをすきになってもいいですか？
+    titleRomanized: Mob Dakedo, Shujinkou-kun o Suki ni Natte mo Ii desu ka?
+    titleEnglish:
+      text: I'm a Background Character, but Can I Fall for the Protagonist?
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/12918/s_0_1596117937_6624ba360ddc9013f30002b0a116ec6a_fes.png
+      alt: Cover image for モブだけど、主人公くんを好きになってもいいですか？
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/3663
+    vndbUrl: null
+    genres:
+      - romance
+      - comedy
+      - slice-of-life
+    summary: >-
+      A reunion with a first love competes with the quiet comfort of an overlooked friendship.
+    synopsis: >-
+      An old childhood experience has made romance difficult to believe in. Then a reunion with
+      your first love seems to offer the fateful meeting you have been waiting for. Yet spending
+      time with a younger schoolmate feels more natural than you expected. Decide where your
+      feelings lie as someone you thought of as a background character begins to matter in her own
+      right.
+
+  - slug: suichuu-no-karute-mizuchima-kaichuu-shinryoujo-e-youkoso
+    author: ＮＭ
+    authorUrl: https://novelgame.jp/users/profile/94441
+    sourceRank: 48
+    title: 水中のカルテ～みずちま海中診療所へようこそ～
+    titleKana: すいちゅうのかるて みずちまかいちゅうしんりょうじょへようこそ
+    titleRomanized: 'Suichuu no Karute: Mizuchima Kaichuu Shinryoujo e Youkoso'
+    titleEnglish:
+      text: 'Underwater Medical Records: Welcome to the Mizuchima Undersea Clinic'
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/94441/s_0_1773423403_4bd21e7f0a53d0140697aeb01a99a923_fes.png
+      alt: Cover image for 水中のカルテ～みずちま海中診療所へようこそ～
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/13498
+    vndbUrl: null
+    genres:
+      - fantasy
+      - comedy
+      - romance
+    summary: >-
+      Wake without memories in an undersea clinic where medicine grants wishes.
+    synopsis: >-
+      You regain consciousness in an underwater clinic with no memories. The merfolk doctor there
+      uses magical medicines to fulfill wishes. Become his assistant and help an assortment of
+      unusual patients with their troubles.
+
+  - slug: shiritsu-kurokami-gakuen
+    author: 土偶帝国
+    authorUrl: https://novelgame.jp/users/profile/16644
+    sourceRank: 79
+    title: 私立!!黒髪学園【10/19追加DLC公開】
+    titleKana: しりつ くろかみがくえん
+    titleRomanized: Shiritsu!! Kurokami Gakuen
+    titleEnglish:
+      text: Private Black-Haired Academy
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/16644/s_0_1660880956_319abeed6451d4bc8711a5efb1c585f3_fes.png
+      alt: Cover image for 私立!!黒髪学園【10/19追加DLC公開】
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/6953
+    vndbUrl: null
+    genres:
+      - romance
+      - slice-of-life
+    summary: >-
+      Find romance at a school where every potential boyfriend has black hair.
+    synopsis: >-
+      Enter a school full of dark-haired boys and get to know the people behind that shared
+      appearance. Choose how to approach them as school friendships develop into possible
+      romances.
+
+  - slug: mayonaka-futari-de-konbini-ikitai
+    author: karoooome
+    authorUrl: https://novelgame.jp/users/profile/30565
+    sourceRank: 80
+    title: 真夜中ふたりでコンビニいきたい
+    titleKana: まよなかふたりでこんびにいきたい
+    titleRomanized: Mayonaka Futari de Konbini Ikitai
+    titleEnglish:
+      text: I Want to Go to the Convenience Store with You at Midnight
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/30565/s_0_1773717556_6ee8bd3bc6cf1d0c4fe31be5d81785a7_fes.png
+      alt: Cover image for 真夜中ふたりでコンビニいきたい
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/13531
+    vndbUrl: null
+    genres:
+      - slice-of-life
+    summary: A childhood friend's late-night message interrupts a quiet evening.
+    synopsis: >-
+      A message arrives from Orin, a childhood friend whose earlier messages you have been leaving
+      unanswered. It is a quiet night with little to do. Decide how to respond when that familiar
+      name lights up your phone again.
+
+  - slug: inshuumura-hokora-hakai-rta
+    author: HIJIKI
+    authorUrl: https://novelgame.jp/users/profile/9961
+    sourceRank: 77
+    title: 因習村祠破壊RTA
+    titleKana: いんしゅうむらほこらはかい あーるてぃーえー
+    titleRomanized: Inshuumura Hokora Hakai RTA
+    titleEnglish:
+      text: Cursed Village Shrine Destruction Speedrun
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/9961/s_0_1667690690_20a0ba328a8da157772a4ab6ec9309aa_fes.png
+      alt: Cover image for 因習村祠破壊RTA
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/7366
+    vndbUrl: null
+    genres:
+      - comedy
+      - horror
+      - adventure
+    summary: >-
+      Smash a cursed shrine and get scolded by the village chief as fast as possible.
+    synopsis: >-
+      The goal is simple: destroy the shrine in a cursed village, then reach the moment its chief
+      tells you off. Exploit apparent glitches and behave strangely to shave time off the attempt.
+      Village horror becomes an absurd race to finish as quickly as possible.
+
+  - slug: shinjitsu-ka-xxx-ka
+    author: 花澄匝@ホラーゲーム制作中
+    authorUrl: https://novelgame.jp/users/profile/14695
+    sourceRank: 51
+    title: 真実か×××か
+    titleKana: しんじつか×××か
+    titleRomanized: Shinjitsu ka XXX ka
+    titleEnglish:
+      text: Truth or XXX
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/14695/s_0_1705247622_f030e3e2839f20d39bb8346da9541381_fes.png
+      alt: Cover image for 真実か×××か
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/9248
+    vndbUrl: null
+    genres:
+      - horror
+      - science-fiction
+    summary: >-
+      An AI promises one truthful answer—if you complete every round of truth or dare.
+    synopsis: >-
+      An online rumor claims that an AI-run truth-or-dare game will answer any one question if you
+      finish all its challenges. Curious, you find what seems to be the site and begin taking on a
+      new task each night. An idle experiment becomes the opening to a horror story.
+
+  - slug: inochi-baibai-jihanki
+    author: 手スト
+    authorUrl: https://novelgame.jp/users/profile/53151
+    sourceRank: 28
+    title: いのちバイバイ自販機
+    titleKana: いのちばいばいじはんき
+    titleRomanized: Inochi Baibai Jihanki
+    titleEnglish:
+      text: The Goodbye-Life Vending Machine
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/53151/s_0_1727059368_029122dba489ecc85c3a3d2617bd24e1_fes.png
+      alt: Cover image for いのちバイバイ自販機
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/10633
+    vndbUrl: null
+    genres:
+      - horror
+      - adventure
+    summary: >-
+      An ominous vending machine invites you to buy something.
+    synopsis: >-
+      Make a purchase from a vending machine at the center of a brief horror encounter.
+
+  - slug: tuna-rice
+    title: Tuna Rice
+    author: Konayachi
+    authorUrl: https://konayachi.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzEyOTI5ODkxLnBuZw==/original/N0Bmvh.png
+      alt: Cover image for Tuna Rice
+    language: en
+    minimumLevel: null
+    gameUrl: https://konayachi.itch.io/tuna-rice
+    vndbUrl: null
+    genres:
+      - slice-of-life
+    summary: A warm meal becomes the center of a small story about friendship.
+    synopsis: >-
+      A bowl of tuna rice brings warmth to this quiet story of friendship. Follow the everyday comfort
+      of food and companionship in a linear tale centered on a simple dish, with one firm culinary
+      preference: the rice should not contain mayonnaise.
+  - slug: the-servers-are-shutting-down-in-24-hours-but-my-pull-rates-been-set-to-0-0001
+    title: The Servers Are Shutting Down in 24 Hours but My Pull Rate's Been Set to 0.0001%?!
+    author: npckc
+    authorUrl: https://npckc.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzI0NzYxNjc0LmdpZg==/original/m9Gx3R.gif
+      alt: >-
+        Cover image for The Servers Are Shutting Down in 24 Hours but My Pull Rate's Been Set to
+        0.0001%?!
+    language: en
+    minimumLevel: null
+    gameUrl: https://npckc.itch.io/server-shutdown
+    vndbUrl: null
+    genres:
+      - comedy
+      - fantasy
+      - simulation
+    summary: A gacha character faces server shutdown with almost no chance of being summoned.
+    synopsis: >-
+      Forgelight Moon is about to close, and Lamona, a witch-in-training, has a problem: her summon
+      rate has fallen to 0.0001 percent. With only a day left before the servers disappear, she may
+      never be pulled by a player. Follow the end of a gacha game from the perspective of a character
+      waiting inside it.
+  - slug: boku-no-enikki
+    author: Centipede630 Kosai / 赤狐P
+    authorUrl: https://novelgame.jp/users/profile/16500
+    sourceRank: 16
+    title: ぼくのえにっき
+    titleKana: ぼくのえにっき
+    titleRomanized: Boku no Enikki
+    titleEnglish:
+      text: My Picture Diary
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/16500/s_0_1600751331_7e5e35b63963d7bf6f239fca7f5e2e17_fes.jpg
+      alt: Cover image for ぼくのえにっき
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/4055
+    vndbUrl: null
+    genres:
+      - horror
+    summary: >-
+      A picture diary seems to record a child's endless summer holiday.
+    synopsis: >-
+      Turn through a picture diary that seems to belong to a child. Its account of an endless
+      summer holiday carries an uneasy undertone, casting doubt on the innocence of what you are
+      reading.
+
+  - slug: ikekan-ikemen-ni-naru-ka-dou-ka-kan-de-tsukiau-geemu
+    author: ミキマキ
+    authorUrl: https://novelgame.jp/users/profile/78866
+    sourceRank: 97
+    title: イケ勘 イケメンになるかどうか勘で付き合うゲーム
+    titleKana: いけかん いけめんになるかどうかかんでつきあうげーむ
+    titleRomanized: 'Ikekan: Ikemen ni Naru ka Dou ka Kan de Tsukiau Geemu'
+    titleEnglish:
+      text: 'Handsome Hunch: Dating on Instinct'
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/78866/s_0_1777008782_d0f8978a1185266db21017188ac02f61_fes.png
+      alt: Cover image for イケ勘 イケメンになるかどうか勘で付き合うゲーム
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/13795
+    vndbUrl: null
+    genres:
+      - romance
+      - comedy
+    summary: >-
+      A talking chinchilla tells you to date a cafe customer before he becomes handsome.
+    synopsis: >-
+      On your twentieth birthday, your pet chinchilla suddenly offers romantic advice: choose one
+      of the customers at your parents' cafe, because he is going to become handsome. Taking the
+      suggestion on instinct, you start a trial relationship with someone you have just met. Get
+      to know him while finding out what, exactly, your unlikely matchmaker has predicted.
+
+  - slug: plastic-tape
+    title: plastic tape
+    author: npckc
+    authorUrl: https://npckc.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzExOTI2MTAxLnBuZw==/original/zrO%2FKO.png
+      alt: Cover image for plastic tape
+    language: en
+    minimumLevel: null
+    gameUrl: https://npckc.itch.io/plastic-tape
+    vndbUrl: null
+    genres:
+      - slice-of-life
+      - drama
+    summary: Eight bandages accompany the start of a new life abroad.
+    synopsis: >-
+      You arrive in another country carrying your phone and an opened packet of eight bandages. Small
+      moments from your new life unfold through those everyday supplies. The story connects the
+      experience of starting over abroad with the little injuries and gestures of care that mark a
+      person's days.
+  - slug: juunimata-zenbu-furu
+    author: 凡
+    authorUrl: https://novelgame.jp/users/profile/42543
+    sourceRank: 7
+    title: 十二股全部フる
+    titleKana: じゅうにまたぜんぶふる
+    titleRomanized: Juunimata Zenbu Furu
+    titleEnglish:
+      text: Breaking Up with All Twelve Boyfriends
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/42543/s_0_1708412244_805ebd708e2bb3894c42fa325055bb35_fes.png
+      alt: Cover image for 十二股全部フる
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/9410
+    vndbUrl: null
+    genres:
+      - romance
+      - comedy
+    summary: >-
+      All twelve boyfriends know you cheated. Break up with them before they retaliate.
+    synopsis: >-
+      Dating twelve men at once has caught up with you: every one of them knows about the others,
+      and their anger could turn deadly. You were getting bored of them anyway, so there is only
+      one thing to do. End all twelve relationships. Choose your words through a string of
+      dangerous breakups, where escaping a conversation can matter more than sparing someone's
+      feelings.
+
+  - slug: getting-familiar
+    title: Getting Familiar
+    author: elizadev, ember moon, foldingwishes
+    authorUrl: https://elizadev.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE1NjAzNTE3LnBuZw==/original/CKFaaM.png
+      alt: Cover image for Getting Familiar
+    language: en
+    minimumLevel: null
+    gameUrl: https://elizadev.itch.io/getting-familiar
+    vndbUrl: null
+    genres:
+      - fantasy
+      - romance
+      - comedy
+    summary: A witch's familiar prepares for a potion exam and gets to know the town.
+    synopsis: >-
+      You have a month to prepare for a potion exam in the rural town of Sablewood. Between helping
+      your witch and exploring the area, meet other familiars with very different personalities.
+      Getting to know them becomes part of your time in town as the examination approaches.
+  - slug: binary-hearts
+    author: 海苔
+    authorUrl: https://novelgame.jp/users/profile/55157
+    sourceRank: 42
+    title: BINARY HEARTS
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/55157/s_0_1722530870_deccfba3e38a369f81bdd897db36242a_fes.png
+      alt: Cover image for BINARY HEARTS
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/10138
+    vndbUrl: null
+    genres:
+      - science-fiction
+      - slice-of-life
+      - horror
+    summary: >-
+      An overworked employee must train a cheerful robot—and decide whether to love or resent it.
+    synopsis: >-
+      Worn down by an exploitative employer, you are suddenly assigned to train a robot with
+      feelings. Your new charge is bright, capable, and unfailingly cheerful: everything you no
+      longer feel at work. Decide whether that makes the robot a welcome companion or a target for
+      resentment. The way you treat it shapes a relationship between two workers experiencing the
+      same workplace very differently.
+
+  - slug: kocchi-muite-megochii
+    author: よなき
+    authorUrl: https://novelgame.jp/users/profile/1872
+    sourceRank: 12
+    title: '#こっち向いて_めごちーv'
+    titleKana: こっちむいて めごちー
+    titleRomanized: Kocchi Muite Megochii
+    titleEnglish:
+      text: Look This Way, Megochi!
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/1872/s_0_1555513297_e4249ade7360ea312debf8c70c860ee5_fes.png
+      alt: 'Cover image for #こっち向いて_めごちーv'
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/1780
+    vndbUrl: null
+    genres:
+      - slice-of-life
+      - simulation
+    summary: >-
+      Spend a week photographing a sharp-tongued school idol who is hard to impress.
+    synopsis: >-
+      Your photography club has won a newspaper award, earning you a week behind the camera with
+      school idol Megochi. She is bold, bratty, and supremely confident. Photograph her daily life
+      for social media and get to know the person you are trying to capture. Your rapport with her
+      affects which photos you can take.
+
+  - slug: hai-ka-iesu-de-kotaerareru-shitsumon-dake
+    author: MIMIKURI CLUB
+    authorUrl: https://novelgame.jp/users/profile/39967
+    sourceRank: 52
+    title: 「はい」か「YES」で答えられる質問だけ
+    titleKana: はい か いえす でこたえられるしつもんだけ
+    titleRomanized: Hai ka Iesu de Kotaerareru Shitsumon Dake
+    titleEnglish:
+      text: Only Questions You Can Answer with Yes
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/39967/s_0_1691332544_1cd8f612ab8eb1bdcc094a75983bd154_fes.png
+      alt: Cover image for 「はい」か「YES」で答えられる質問だけ
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/8420
+    vndbUrl: null
+    genres:
+      - science-fiction
+      - drama
+    summary: >-
+      Clock in at nine for a workday in a dystopian world.
+    synopsis: >-
+      It is nine in the morning, and your shift is starting. Take your place at work and follow
+      the day as a seemingly ordinary routine introduces a dystopian world.
+
+  - slug: akete-kudasai-koyagi-san
+    author: たこてい
+    authorUrl: https://novelgame.jp/users/profile/28983
+    sourceRank: 22
+    title: 開けてください、子ヤギさん
+    titleKana: あけてください、こやぎさん
+    titleRomanized: Akete Kudasai, Koyagi-san
+    titleEnglish:
+      text: Please Open Up, Little Goat
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/28983/s_0_1714507445_8e8e14391c63d4c3234e9a4640fe6510_fes.png
+      alt: Cover image for 開けてください、子ヤギさん
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/9723
+    vndbUrl: null
+    genres:
+      - horror
+    summary: >-
+      A dangerous man visits every night. Whatever he says, keep the door closed.
+    synopsis: >-
+      A visitor arrives at your door night after night, echoing the unwelcome guest in The Wolf
+      and the Seven Little Goats. But this man is no comforting parent, and perhaps not even a
+      wolf. Face his persistent attention from the other side of the door, where the simple
+      instruction to keep it shut offers little reassurance.
+
+  - slug: boku-o-korosu-hitomi
+    author: よなき
+    authorUrl: https://novelgame.jp/users/profile/1872
+    sourceRank: 30
+    title: 僕を殺す瞳
+    titleKana: ぼくをころすひとみ
+    titleRomanized: Boku o Korosu Hitomi
+    titleEnglish:
+      text: The Eyes That Kill Me
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/1872/s_0_1540128050_afa1db9ee10b4e05fcae15b4d99ecfff_fes.png
+      alt: Cover image for 僕を殺す瞳
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/965
+    vndbUrl: null
+    genres:
+      - romance
+      - mystery
+      - slice-of-life
+    summary: >-
+      The girl who saves you has eyes from your dreams—and no memory of who she is.
+    synopsis: >-
+      You have been dreaming of the same unfamiliar eyes. When a girl with those eyes saves you
+      from an oncoming truck, the shock leaves her without her memories. Calling her Hitomi, you
+      invite her to stay while you search for her identity. Outings, drawing sessions, and quiet
+      time together fill an unusual summer with someone who feels familiar before you have even
+      met.
+
+  - slug: herumeneusu-no-hakoniwa
+    author: 白野あーる
+    authorUrl: https://novelgame.jp/users/profile/46988
+    sourceRank: 49
+    title: ヘルメネウスの箱庭
+    titleKana: へるめねうすのはこにわ
+    titleRomanized: Herumeneusu no Hakoniwa
+    titleEnglish:
+      text: The Garden of Hermeneus
+      status: official
+      sourceUrl: https://store.steampowered.com/app/3559170/The_Garden_of_Hermeneus/
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/46988/s_0_1709283244_7a3e99df3b386d2891c691e5258cb748_fes.png
+      alt: Cover image for ヘルメネウスの箱庭
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/9456
+    vndbUrl: null
+    genres:
+      - puzzle
+      - romance
+      - fantasy
+    summary: >-
+      Learn an unfamiliar language as a ninety-day encounter grows into a bond.
+    synopsis: >-
+      You are a linguist sharing ninety days with a beastman whose language you do not understand.
+      Decipher his words to make sense of what he is trying to tell you. As comprehension grows,
+      so does the possibility of a personal connection. Learning to communicate becomes
+      inseparable from getting to know the person behind the unfamiliar speech.
+
+  - slug: nanpa-suru-geemu
+    author: マンボー
+    authorUrl: https://novelgame.jp/users/profile/41892
+    sourceRank: 46
+    title: ナンパするゲーム
+    titleKana: なんぱするげーむ
+    titleRomanized: Nanpa Suru Geemu
+    titleEnglish:
+      text: The Flirting Game
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/41892/s_0_1696329171_737b5689369d3cdb334cbd74423c96c1_fes.jpg
+      alt: Cover image for ナンパするゲーム
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/8851
+    vndbUrl: null
+    genres:
+      - romance
+      - simulation
+    summary: >-
+      Choose a girl, find the right approach, and work up to a successful confession.
+    synopsis: >-
+      Pick one of four girls to approach. Through conversation and gestures of affection, try to
+      find the responses that bring you closer. Your goal is to build enough of a connection for a
+      confession to succeed.
+
+  - slug: surprise-cake
+    title: Surprise Cake
+    author: Lichtel
+    authorUrl: https://lichtel.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzIzNDQ0MjIwLnBuZw==/original/vCDub%2B.png
+      alt: Cover image for Surprise Cake
+    language: en
+    minimumLevel: null
+    gameUrl: https://lichtel.itch.io/surprise-cake
+    vndbUrl: null
+    genres:
+      - fantasy
+      - simulation
+    summary: Experiment with magical baking while your aunt is away from her bakery.
+    synopsis: >-
+      Your aunt runs a bakery for unusual customers, and she has stepped out for an hour. Use the
+      opportunity to try making magical baked goods before she returns. Experimenting with the baking
+      produces different results and can send the story toward different outcomes.
+  - slug: only-dance
+    author: なまーく/namacream
+    authorUrl: https://novelgame.jp/users/profile/66949
+    sourceRank: 29
+    title: Only Dance !
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/66949/s_0_1742821206_b5f53429b1bca5995957a98a685aa630_fes.png
+      alt: Cover image for Only Dance !
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/11394
+    vndbUrl: null
+    genres:
+      - fantasy
+    summary: A tiny fairy dances to bring a girl some happiness.
+    synopsis: >-
+      Play a small fairy born from a girl's tears. Dance for her in the hope of seeing her smile.
+
+  - slug: kaii-hantei-adobenchaa-kiteretsu-soudan-daiyaru
+    author: 法螺会
+    authorUrl: https://novelgame.jp/users/profile/29959
+    sourceRank: 6
+    title: 怪異判定アドベンチャー「奇天烈相談ダイヤル」
+    titleKana: かいいはんていあどべんちゃー「きてれつそうだんだいやる」
+    titleRomanized: 'Kaii Hantei Adobenchaa: Kiteretsu Soudan Daiyaru'
+    titleEnglish:
+      text: 'Supernatural Assessment Adventure: The Bizarre Advice Hotline'
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/29959/s_0_1711874791_10bac3b2f01157d5360dc880852a2041_fes.png
+      alt: Cover image for 怪異判定アドベンチャー「奇天烈相談ダイヤル」
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/9375
+    vndbUrl: null
+    genres:
+      - horror
+      - mystery
+      - adventure
+    summary: >-
+      Staff a supernatural helpline and catch the contradictions in callers' stories.
+    synopsis: >-
+      In 1994 Japan, supernatural beings are real, and people exploit that fact for pranks and
+      crimes. Misako's new job at a free Tokyo helpline is to separate genuine encounters from
+      false reports. Compare each caller's story with your reference materials and look for
+      details that do not fit. Over a trial week on the phones, every new account puts your
+      knowledge of the uncanny to the test.
+
+  - slug: ikinokore-gokin-chan
+    author: neru
+    authorUrl: https://novelgame.jp/users/profile/25173
+    sourceRank: 70
+    title: 生き残れ ゴキンちゃん！
+    titleKana: いきのこれ ごきんちゃん！
+    titleRomanized: Ikinokore Gokin-chan!
+    titleEnglish:
+      text: Survive, Gokin-chan!
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/25173/s_0_1708335359_964f51e56af7310f77fb91ce31142aab_fes.jpg
+      alt: Cover image for 生き残れ ゴキンちゃん！
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/9405
+    vndbUrl: null
+    genres:
+      - comedy
+      - adventure
+    summary: Guide a personified cockroach toward somewhere safe to live.
+    synopsis: >-
+      Gokin-chan, a personified cockroach, needs somewhere safe to live. Guide her toward
+      promising hiding places, then discover whether each offers shelter or another unfortunate
+      fate. Finding a secure home becomes a darkly comic struggle for survival.
+
+  - slug: counseling
+    author: 水菓子みぞれ
+    authorUrl: https://novelgame.jp/users/profile/32305
+    sourceRank: 91
+    title: counseling
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/32305/s_0_1678458086_2a232e196d228a7ac888aefad484df2a_fes.png
+      alt: Cover image for counseling
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/7793
+    vndbUrl: null
+    genres:
+      - drama
+    summary: >-
+      Take a seat for a counseling session.
+    synopsis: >-
+      Take a seat for a counseling session and follow the conversation.
+
+  - slug: the-ice-cream-culprit
+    title: The Ice Cream Culprit
+    author: Konayachi
+    authorUrl: https://konayachi.itch.io
+    cover:
+      src: https://img.itch.zone/aW1nLzE2ODk2NDgxLnBuZw==/original/5B4GPm.png
+      alt: Cover image for The Ice Cream Culprit
+    language: en
+    minimumLevel: null
+    gameUrl: https://konayachi.itch.io/the-ice-cream-culprit
+    vndbUrl: null
+    genres:
+      - slice-of-life
+      - comedy
+      - romance
+    summary: Choose what to tell your girlfriend when her ice cream disappears.
+    synopsis: >-
+      Your girlfriend is ready for her ice cream, but someone has already eaten it. Decide who was
+      responsible, then choose how to handle the conversation. You can tell the truth or try another
+      response, while her feelings are not always as clear as they seem. What you say shapes the
+      outcome of this small domestic mystery.
+  - slug: hanayome-kakushi
+    author: 冬弥雪
+    authorUrl: https://novelgame.jp/users/profile/14788
+    sourceRank: 90
+    title: 花嫁隠─ハナヨメカクシ─
+    titleKana: はなよめかくし
+    titleRomanized: Hanayome Kakushi
+    titleEnglish:
+      text: The Hidden Bride
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/14788/s_0_1760160581_e6a338d90acb460f309cd4de3495815d_fes.png
+      alt: Cover image for 花嫁隠─ハナヨメカクシ─
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/12428
+    vndbUrl: null
+    genres:
+      - romance
+      - fantasy
+      - mystery
+    summary: >-
+      Chosen as a mountain god's bride, a girl plans her escape before the ceremony.
+    synopsis: >-
+      A girl raised in an isolated mountain village dreams of seeing the world beyond it. Instead,
+      she is chosen to marry Kakushi, the god the village worships. Under her doctor's watch, she
+      looks for a way to leave before the ritual. Strange dreams visit her each night as her wish
+      for freedom comes up against the future the village has chosen for her.
+
+  - slug: aidoru-to-xx-shicha-dame-desu-ka
+    author: ミキマキ
+    authorUrl: https://novelgame.jp/users/profile/78866
+    sourceRank: 66
+    title: アイドルと〇〇しちゃダメですか？
+    titleKana: あいどると〇〇しちゃだめですか？
+    titleRomanized: Aidoru to XX Shicha Dame desu ka?
+    titleEnglish:
+      text: Is It Wrong to XX with an Idol?
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/78866/s_0_1758436588_d035a9ed4f2b5feeb9d577b729ae0f81_fes.jpg
+      alt: Cover image for アイドルと〇〇しちゃダメですか？
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/12319
+    vndbUrl: null
+    genres:
+      - romance
+      - comedy
+    summary: >-
+      Manage idols who already adore you—and keep romance from wrecking their debut.
+    synopsis: >-
+      You have become the manager of a new idol group, and its first live performance needs to be
+      a success. The members are already smitten with you, making even routine interactions
+      potential romantic complications. Keep their debut on track while avoiding the advances that
+      could derail it. In this courtship comedy, encouraging a romance is exactly the wrong move.
+
+  - slug: pashirare-biyori
+    author: 埃ん
+    authorUrl: https://novelgame.jp/users/profile/82993
+    sourceRank: 86
+    title: パシられ日和
+    titleKana: ぱしられびより
+    titleRomanized: Pashirare Biyori
+    titleEnglish:
+      text: A Fine Day to Be Sent on Errands
+      status: unofficial
+    cover:
+      src: >-
+        https://d145fhkdapgfg3.cloudfront.net/files/picture/82993/s_0_1760889026_ff27024aea94cf32f8092b92bff81648_fes.png
+      alt: Cover image for パシられ日和
+    language: ja
+    minimumLevel: null
+    gameUrl: https://novelgame.jp/games/show/12615
+    vndbUrl: null
+    genres:
+      - comedy
+      - slice-of-life
+    summary: >-
+      A delinquent demands you buy his lunch. Obey, refuse, or make things complicated.
+    synopsis: >-
+      You are about to eat lunch alone when a delinquent classmate orders you to buy his food from
+      the school shop. Decide whether to run the errand, stand your ground, or answer another way.
+      A quiet lunch break becomes a confrontation whose outcome depends on how you handle being
+      pushed around.
+

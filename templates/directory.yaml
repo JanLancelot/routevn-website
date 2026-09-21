@@ -1,0 +1,44 @@
+- __html: "<!doctype html>"
+- html lang="${directory.site.language}":
+    - head:
+        - meta charset="utf-8":
+        - meta name="viewport" content="width=device-width, initial-scale=1":
+        - meta name="color-scheme" content="light":
+        - title: ${default(seoTitle, directory.site.title)}
+        - link rel="canonical" href="${site.baseUrl}${page.url}":
+        - link rel="icon" href="/public/favicon.png":
+        - meta name="description" content="${default(seoDescription, directory.site.description)}":
+        - meta property="og:type" content="website":
+        - meta property="og:url" content="${site.baseUrl}${page.url}":
+        - meta property="og:title" content="${default(seoTitle, directory.site.title)}":
+        - meta property="og:description" content="${default(seoDescription, directory.site.description)}":
+        - $if ogImage:
+            - meta property="og:image" content="${ogImage}":
+            - meta name="twitter:card" content="summary_large_image":
+            - meta name="twitter:title" content="${default(seoTitle, directory.site.title)}":
+            - meta name="twitter:description" content="${default(seoDescription, directory.site.description)}":
+            - meta name="twitter:image" content="${ogImage}":
+        - link rel="stylesheet" href="/public/theme.css":
+        - link rel="stylesheet" href="/public/directory/directory.css":
+        # Register layout components before parsing the body to prevent an unstyled first paint.
+        - script src="https://cdn.jsdelivr.net/npm/construct-style-sheets-polyfill@3.1.0/dist/adoptedStyleSheets.min.js":
+        - script src="/public/rtgl-icons.js":
+        - script src="https://cdn.jsdelivr.net/npm/@rettangoli/ui@1.21.0/dist/rettangoli-iife-ui.min.js":
+        - script type="module" src="/public/directory/directory.js":
+    - body class="light":
+        - a.skip-link href="#main": ${directory.copy.skipLink}
+        - rtgl-view role=banner w=f ah=c bwb=xs pv=lg:
+            - rtgl-view w=1200 xl-w="calc(100vw - 64px)" md-w="calc(100vw - 32px)" d=h av=c ah=s g=lg:
+                - a href="/":
+                    - img src="/public/masshiro/logo-horizontal.png" alt="RouteVN with Masshiro" width=150 height=33:
+                - rtgl-view w=1fg:
+        - rtgl-view.site-content ah=c:
+            - rtgl-view#main role=main tabindex=-1 w=1200 xl-w="calc(100vw - 64px)" md-w="calc(100vw - 32px)" pb=xl:
+                - "${content}"
+        - rtgl-view.site-footer role=contentinfo w=f ah=c:
+            - $partial: footer1
+              logo:
+                src: /public/masshiro/logo-horizontal.png
+                width: 150
+                height: 33
+                alt: RouteVN with Masshiro

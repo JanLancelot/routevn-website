@@ -242,7 +242,10 @@ browsers:
     - 'section id="download" class="rvn-web-extractor-cta" aria-label="Get RouteVN Web Extractor"':
         - 'rtgl-view ah="c" g="lg" w="1024" lg-w="f"':
             - 'rtgl-text s="h2" role="heading" aria-level="2" ta="c"': Get RouteVN Web Extractor
-            - rtgl-text s="lg" c="mu" ta="c" mb="xl": Choose your browser to get the extension.
+            - rtgl-view ah="c" g="md" mb="xl":
+                - rtgl-text s="lg" c="mu" ta="c": Choose your browser to get the extension.
+                - rtgl-text s="sm" ta="c":
+                    - 'a href="/en/web-extractor/docs/getting-started/"': Installation Guide
             - rtgl-grid cols="3" md-cols="1" g="lg" w="f":
                 - $for browser in browsers:
                     - $if browser.disabled:
@@ -257,7 +260,7 @@ browsers:
                                 - 'rtgl-svg svg="${browser.icon}" wh="64" f="pr-fg" aria-hidden="true"':
                                 - 'rtgl-text s="h3" role="heading" aria-level="3" ta="c"': ${browser.name}
                                 - rtgl-text s="md" c="mu" ta="c": ${browser.label}
-            - rtgl-text s="md" ta="c" mt="xl":
-                - 'a href="/en/web-extractor/docs/getting-started/"': Installation Guide
+
+            - $partial: directory/discover
 
 - script src="/public/image-lightbox.js" defer:

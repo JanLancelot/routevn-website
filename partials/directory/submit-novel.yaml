@@ -1,0 +1,6 @@
+- $if directory.forms.submitNovelUrl:
+    - rtgl-button href="${directory.forms.submitNovelUrl}" new-tab v=se: ${directory.copy.submitNovel}
+  $else:
+    - rtgl-view g=xs:
+        - rtgl-button v=ol disabled: ${directory.copy.submitNovel}
+        - rtgl-text s=xs c=mu-fg: ${directory.copy.formComingSoon}

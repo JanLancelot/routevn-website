@@ -1,0 +1,30 @@
+# Excluded pending content review; not used by the website build.
+# Underwear tag; protagonist is described as a first-year high-school student.
+- slug: arisu-suiipaa
+  author: ねこの/milkcat
+  authorUrl: https://novelgame.jp/users/profile/1453
+  sourceRank: 39
+  title: ありすすいーぱー
+  titleKana: ありすすいーぱー
+  titleRomanized: Arisu Suiipaa
+  titleEnglish:
+    text: Alice Sweeper
+    status: unofficial
+  cover:
+    src: >-
+      https://d145fhkdapgfg3.cloudfront.net/files/picture/1453/s_0_1615169284_198297a93cc06ec8a584fce4e719d48e_fes.png
+    alt: Cover image for ありすすいーぱー
+  language: ja
+  minimumLevel: null
+  gameUrl: https://novelgame.jp/games/show/3159
+  vndbUrl: null
+  genres:
+    - puzzle
+    - comedy
+  summary: >-
+    Race to cherry-blossom viewing with Alice, with Minesweeper puzzles blocking her way.
+  synopsis: >-
+    It is Alice's first spring of high school, and she has left home at the last minute for her
+    cherry-blossom outing. A succession of mishaps threatens her chances of arriving on time.
+    Clear Minesweeper challenges as she tries to reach the meeting place despite the trouble
+    along the way.

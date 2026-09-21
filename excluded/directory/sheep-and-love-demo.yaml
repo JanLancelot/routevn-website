@@ -1,0 +1,22 @@
+# Excluded pending content review; not used by the website build.
+# Listing describes discussion of healing from sexual violence. Whether that discussion is present in the demo needs confirmation.
+- slug: sheep-and-love-demo
+  title: Sheep and Love Demo
+  author: Miramar
+  authorUrl: https://miramar.itch.io
+  cover:
+    src: https://img.itch.zone/aW1nLzI1NjE4NzEwLnBuZw==/original/W%2B9gKj.png
+    alt: Cover image for Sheep and Love Demo
+  language: en
+  minimumLevel: null
+  gameUrl: https://miramar.itch.io/sheep-and-love-demo
+  vndbUrl: null
+  genres:
+    - slice-of-life
+    - romance
+  summary: 'Browser demo: raise sheep and form new relationships in the French Pyrenees.'
+  synopsis: >-
+    You move to the Ossau Valley with your best friend, planning to raise sheep and sell their wool
+    at local markets. The people you meet are welcoming, musical, and unexpectedly interested in
+    you. Get to know the community through conversations about its life and concerns, building
+    connections that can become romance or a lasting friendship.

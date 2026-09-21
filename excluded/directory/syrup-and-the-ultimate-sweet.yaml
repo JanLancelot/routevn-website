@@ -1,0 +1,22 @@
+# Excluded pending content review; not used by the website build.
+# Creator advisory explicitly identifies candy nudity.
+- slug: syrup-and-the-ultimate-sweet
+  title: Syrup and the Ultimate Sweet
+  author: NomnomNami
+  authorUrl: https://nomnomnami.itch.io
+  cover:
+    src: https://img.itch.zone/aW1nLzMwODQxNDYucG5n/original/6CYPEM.png
+    alt: Cover image for Syrup and the Ultimate Sweet
+  language: en
+  minimumLevel: null
+  gameUrl: https://nomnomnami.itch.io/syrup-and-the-ultimate-sweet
+  vndbUrl: null
+  genres:
+    - fantasy
+    - comedy
+  summary: A candy alchemist discovers an unexplained candy golem in her workshop.
+  synopsis: >-
+    Syrup finds a living candy golem in her basement workshop, but she does not know who made her or
+    how she got there. The unexpected visitor interrupts the alchemist's work and raises questions
+    about the creation waiting downstairs. Follow different paths through their encounter as Syrup
+    deals with this very unusual confection.
