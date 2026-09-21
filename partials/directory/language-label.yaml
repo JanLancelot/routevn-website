@@ -1,0 +1,3 @@
+- $for language in directory.filters.language.options:
+    - $if language.value == languageId:
+        - rtgl-text s="${default(size, 'md')}": ${language.label}

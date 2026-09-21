@@ -1,0 +1,30 @@
+# Excluded at owner request; not used by the website build.
+- slug: shokuryou-tenshi
+  author: 爆爆赤青@東京ゲームダンジョン3 【G-05a】
+  authorUrl: https://novelgame.jp/users/profile/39392
+  sourceRank: 73
+  title: 食糧天使
+  titleKana: しょくりょうてんし
+  titleRomanized: Shokuryou Tenshi
+  titleEnglish:
+    text: Angels for Food
+    status: unofficial
+  cover:
+    src: >-
+      https://d145fhkdapgfg3.cloudfront.net/files/picture/39392/s_0_1689876990_3e363ae862b02bc32f979e5ad9625871_fes.jpg
+    alt: Cover image for 食糧天使
+  language: ja
+  minimumLevel: null
+  gameUrl: https://novelgame.jp/games/show/8274
+  vndbUrl: null
+  genres:
+    - fantasy
+    - horror
+    - drama
+  summary: >-
+    A lonely butcher befriends the angel he has been given to slaughter.
+  synopsis: >-
+    In a town without morning, butcher Rin is tasked with slaughtering an angel named Riu-Riu.
+    The angel is eager for him to get on with it, sometimes pleading and sometimes impatient.
+    Rin, however, has lived alone, and the time he spends with Riu-Riu is becoming precious to
+    him.

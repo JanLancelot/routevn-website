@@ -1,0 +1,32 @@
+- __html: "<!doctype html>"
+- html lang="${directory.site.language}":
+    - head:
+        - meta charset="utf-8":
+        - meta name="viewport" content="width=device-width, initial-scale=1":
+        - meta name="color-scheme" content="light":
+        - title: ${default(seoTitle, directory.site.title)}
+        - link rel="canonical" href="${site.baseUrl}${page.url}":
+        - link rel="icon" href="/public/favicon.png":
+        - meta name="description" content="${default(seoDescription, directory.site.description)}":
+        - link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@rettangoli/ui@1.21.0/dist/themes/base.css":
+        - link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@rettangoli/ui@1.21.0/dist/themes/theme-rtgl-mono.css":
+        - link rel="stylesheet" href="/public/directory/theme.css":
+        - link rel="stylesheet" href="/public/directory/directory.css":
+        # Register layout components before parsing the body to prevent an unstyled first paint.
+        - script src="/public/directory/icons.js":
+        - script src="https://cdn.jsdelivr.net/npm/@rettangoli/ui@1.21.0/dist/rettangoli-iife-ui.min.js":
+        - script type="module" src="/public/directory/directory.js":
+    - body class="light":
+        - a.skip-link href="#main": ${directory.copy.skipLink}
+        - rtgl-view role=banner w=f ah=c bwb=xs pv=lg:
+            - rtgl-view w=1200 xl-w="calc(100vw - 64px)" md-w="calc(100vw - 32px)" d=h av=c ah=s g=lg:
+                - a href="/":
+                    - rtgl-text s=h4: ${directory.site.name}
+                - rtgl-view w=1fg:
+                - $partial: directory/submit-novel
+        - rtgl-view.site-content ah=c:
+            - rtgl-view#main role=main tabindex=-1 w=1200 xl-w="calc(100vw - 64px)" md-w="calc(100vw - 32px)" pb=xl:
+                - "${content}"
+        - rtgl-view.site-footer role=contentinfo ah=c bwt=xs pv=lg:
+            - rtgl-view w=800 xl-w="min(800px, calc(100vw - 64px))" md-w="calc(100vw - 32px)":
+                - rtgl-text s=sm c=mu-fg ta=c: ${directory.site.footer}

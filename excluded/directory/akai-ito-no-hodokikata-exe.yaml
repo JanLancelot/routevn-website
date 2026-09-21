@@ -1,0 +1,30 @@
+# Excluded pending content review; not used by the website build.
+# Creator warns of implied sexual acts, particularly non-consensual acts.
+- slug: akai-ito-no-hodokikata-exe
+  author: たこてい
+  authorUrl: https://novelgame.jp/users/profile/28983
+  sourceRank: 82
+  title: 赤い糸の解き方.exe
+  titleKana: あかいいとのほどきかた
+  titleRomanized: Akai Ito no Hodokikata.exe
+  titleEnglish:
+    text: How to Untie the Red Thread.exe
+    status: unofficial
+  cover:
+    src: >-
+      https://d145fhkdapgfg3.cloudfront.net/files/picture/28983/s_0_1672779314_adbaf1faac93cd79b691798506bdc421_fes.png
+    alt: Cover image for 赤い糸の解き方.exe
+  language: ja
+  minimumLevel: null
+  gameUrl: https://novelgame.jp/games/show/7564
+  vndbUrl: null
+  genres:
+    - romance
+    - horror
+  summary: >-
+    Your younger stepbrother makes conversations repeat whenever he dislikes your answer.
+  synopsis: >-
+    Your younger stepbrother insists that you should love him. If you answer in a way he
+    dislikes, he makes the conversation repeat. Try to respond while he turns each exchange into
+    another chance to talk you into agreement. His ability to undo rejection leaves you trapped
+    in a relationship where even your own words can be taken back for you.

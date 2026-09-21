@@ -1,0 +1,26 @@
+# Excluded pending content review; not used by the website build.
+# Creator explicitly warns of sexual content as well as violence.
+- slug: bad-endless-theater
+  author: 兎角Arle / 欠陥オルゴール
+  authorUrl: https://novelgame.jp/users/profile/14186
+  sourceRank: 54
+  title: BAD ENDLESS THEATER
+  cover:
+    src: >-
+      https://d145fhkdapgfg3.cloudfront.net/files/picture/14186/s_0_1726650975_0166acb8756da87590cad0af2e10ea42_fes.png
+    alt: Cover image for BAD ENDLESS THEATER
+  language: ja
+  minimumLevel: null
+  gameUrl: https://novelgame.jp/games/show/10609
+  vndbUrl: null
+  genres:
+    - fantasy
+    - horror
+    - adventure
+  summary: >-
+    A captive girl asks you to save her from a theater that keeps leading you to disaster.
+  synopsis: >-
+    You wake in a theater you do not recognize and find a girl trapped there, asking for help.
+    Try to rescue her as your attempts lead toward disturbing dead ends. Return to the encounter
+    with what you have learned and look for another way through the theater's cruel
+    possibilities.

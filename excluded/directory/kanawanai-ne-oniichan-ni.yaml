@@ -1,0 +1,29 @@
+# Excluded pending content review; not used by the website build.
+# Creator warns of sexually suggestive text and describes a child-coded younger-brother/older-brother pairing.
+- slug: kanawanai-ne-oniichan-ni
+  author: ゆきた
+  authorUrl: https://novelgame.jp/users/profile/17279
+  sourceRank: 100
+  title: 敵わないねっ、お兄ちゃん！にっ！
+  titleKana: かなわないねっ、おにいちゃん！にっ！
+  titleRomanized: Kanawanai ne, Oniichan! Ni!
+  titleEnglish:
+    text: You're No Match, Big Brother! 2!
+    status: unofficial
+  cover:
+    src: >-
+      https://d145fhkdapgfg3.cloudfront.net/files/picture/17279/s_0_1672221306_6e161ea39c0b72e6a15a0c0ee5e2da21_fes.png
+    alt: Cover image for 敵わないねっ、お兄ちゃん！にっ！
+  language: ja
+  minimumLevel: null
+  gameUrl: https://novelgame.jp/games/show/7530
+  vndbUrl: null
+  genres:
+    - romance
+    - comedy
+  summary: An older brother's excessive attention keeps backfiring.
+  synopsis: >-
+    An older brother lavishes attention on his younger brother, only for his excessive fussing
+    to backfire in a boys-love comedy.
+
+# Browser-playable Ren'Py releases verified 2026-09-17; see docs/itch-browser-review.md.

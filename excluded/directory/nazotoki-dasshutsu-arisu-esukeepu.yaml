@@ -1,0 +1,30 @@
+# Excluded pending content review; not used by the website build.
+# Underwear, bathroom-urgency and sexual-joke tags; creator acknowledges sensitive imagery and offers a reduced-sensitivity mode.
+- slug: nazotoki-dasshutsu-arisu-esukeepu
+  author: ねこの/milkcat
+  authorUrl: https://novelgame.jp/users/profile/1453
+  sourceRank: 17
+  title: 【謎解きｘ脱出！】ありすえすけーぷ
+  titleKana: なぞとき だっしゅつ ありすえすけーぷ
+  titleRomanized: Nazotoki Dasshutsu! Arisu Esukeepu
+  titleEnglish:
+    text: Puzzles and Escape! Alice Escape
+    status: unofficial
+  cover:
+    src: >-
+      https://d145fhkdapgfg3.cloudfront.net/files/picture/1453/s_0_1649672766_4c5903197ea89e8ca05b0057bf8539bc_fes.gif
+    alt: Cover image for 【謎解きｘ脱出！】ありすえすけーぷ
+  language: ja
+  minimumLevel: null
+  gameUrl: https://novelgame.jp/games/show/4548
+  vndbUrl: null
+  genres:
+    - puzzle
+    - comedy
+  summary: >-
+    Alice is locked in her school at night—and there is no bathroom.
+  synopsis: >-
+    Alice wakes inside her school after dark, with no way out and an increasingly urgent need
+    for a bathroom. Unfortunately, the building does not seem to have one. Search the rooms and
+    solve the puzzles keeping her trapped before her predicament gets any worse. Each obstacle
+    adds another indignity to an already disastrous night.

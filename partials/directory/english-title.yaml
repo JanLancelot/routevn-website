@@ -1,0 +1,10 @@
+- $if item.titleEnglish:
+    - rtgl-view d=h wrap av=c g=sm:
+        - rtgl-text s=sm lang=en break-long-tokens: ${item.titleEnglish.text}
+        - $if item.titleEnglish.status == 'official':
+            - rtgl-text s=xs c=mu-fg: ${directory.copy.officialTitleShort}
+          $else:
+            - rtgl-text s=xs c=mu-fg: ${directory.copy.unofficialTitleShort}
+        - $if item.titleEnglish.sourceUrl:
+            - rtgl-text s=xs:
+                - a href="${item.titleEnglish.sourceUrl}" target=_blank rel="noopener noreferrer": ${directory.copy.titleSource}

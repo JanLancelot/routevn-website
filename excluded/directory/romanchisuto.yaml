@@ -1,0 +1,30 @@
+# Excluded pending content review; not used by the website build.
+# Creator describes psychological oppression and unhealthy relationships, with no explicit sexual-content warning.
+- slug: romanchisuto
+  author: 肋骨
+  authorUrl: https://novelgame.jp/users/profile/35671
+  sourceRank: 33
+  title: ロマンチスト
+  titleKana: ろまんちすと
+  titleRomanized: Romanchisuto
+  titleEnglish:
+    text: The Romantic
+    status: unofficial
+  cover:
+    src: >-
+      https://d145fhkdapgfg3.cloudfront.net/files/picture/35671/s_0_1675125913_6ab804667310fd0a00a6d2c42580a887_fes.png
+    alt: Cover image for ロマンチスト
+  language: ja
+  minimumLevel: null
+  gameUrl: https://novelgame.jp/games/show/7655
+  vndbUrl: null
+  genres:
+    - mystery
+    - drama
+  summary: >-
+    Being loved starts to feel like being forced to play someone else's ideal.
+  synopsis: >-
+    Affection becomes suffocating when another person decides how you should act, feel, or even
+    be. Friends, partners, and family can demand an idealized version of someone while believing
+    they are showing love. Explore the strain of living under those expectations—and the
+    uncomfortable possibility of placing the same demands on people you care about.

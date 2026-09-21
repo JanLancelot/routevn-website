@@ -1,3 +1,29 @@
+# Language directory: English-only content and legacy paths
+/directory /en/directory/ 301
+/directory/ /en/directory/ 301
+/v/:slug /en/v/:slug/ 301
+/v/:slug/ /en/v/:slug/ 301
+/ja/directory /en/directory/ 302
+/ja/directory/ /en/directory/ 302
+/ja/v/:slug /en/v/:slug/ 302
+/ja/v/:slug/ /en/v/:slug/ 302
+/zh-hans/directory /en/directory/ 302
+/zh-hans/directory/ /en/directory/ 302
+/zh-hans/v/:slug /en/v/:slug/ 302
+/zh-hans/v/:slug/ /en/v/:slug/ 302
+/it/directory /en/directory/ 302
+/it/directory/ /en/directory/ 302
+/it/v/:slug /en/v/:slug/ 302
+/it/v/:slug/ /en/v/:slug/ 302
+/fr/directory /en/directory/ 302
+/fr/directory/ /en/directory/ 302
+/fr/v/:slug /en/v/:slug/ 302
+/fr/v/:slug/ /en/v/:slug/ 302
+/es/directory /en/directory/ 302
+/es/directory/ /en/directory/ 302
+/es/v/:slug /en/v/:slug/ 302
+/es/v/:slug/ /en/v/:slug/ 302
+
 # Canonical redirects
 /en/reader/web-extractor /en/web-extractor/ 301
 /en/reader/web-extractor/ /en/web-extractor/ 301

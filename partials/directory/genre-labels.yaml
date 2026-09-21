@@ -1,0 +1,4 @@
+- $for genreId in item.genres:
+    - $for genre in directory.filters.genre.options:
+        - $if genre.value == genreId:
+            - rtgl-tag: ${genre.label}

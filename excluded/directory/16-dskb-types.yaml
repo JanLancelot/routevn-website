@@ -1,0 +1,24 @@
+# Excluded pending content review; not used by the website build.
+# Sexual-inclination quiz; creator cautions that questions can be risqué while stating there are no direct depictions.
+- slug: 16-dskb-types
+  author: karoooome
+  authorUrl: https://novelgame.jp/users/profile/30565
+  sourceRank: 1
+  title: 16 DSKB Types
+  cover:
+    src: >-
+      https://d145fhkdapgfg3.cloudfront.net/files/picture/30565/s_0_1777197487_e9f09b109f15c1b62a787460fbf31a9a_fes.png
+    alt: Cover image for 16 DSKB Types
+  language: ja
+  minimumLevel: null
+  gameUrl: https://novelgame.jp/games/show/13811
+  vndbUrl: null
+  genres:
+    - simulation
+  summary: >-
+    Find your suggestive personality type in a tongue-in-cheek quiz.
+  synopsis: >-
+    How do your answers to a few suggestive questions add up? Follow your instincts through a
+    personality quiz that sorts your preferences across four categories, then matches you with
+    one of sixteen types. There is nothing to get right: the result depends on which answers
+    feel most like you.

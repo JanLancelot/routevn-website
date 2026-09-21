@@ -1,0 +1,46 @@
+- rtgl-view w=f pv=lg mt=lg:
+    - rtgl-button#back-link href="/en/directory/" v=gh: ${directory.copy.back}
+- rtgl-grid role=article cols="minmax(0, 0.75fr) minmax(0, 1.5fr)" md-cols=1 g=xl w=f:
+    - rtgl-image w=f ar="4/3" of=cov br=lg src="${item.cover.src}" alt="${item.cover.alt}":
+    - rtgl-view w=f g=xl:
+        - rtgl-view w=f g=lg:
+            - rtgl-text s=h2 role=heading aria-level=1 lang="${item.language}" break-long-tokens: ${default(item.titleOriginal, item.title)}
+            - $if item.titleOriginal && item.titleOriginal != item.title:
+                - rtgl-text s=sm c=mu-fg break-long-tokens: ${item.title}
+            - $if item.titleRomanized:
+                - rtgl-text s=sm c=mu-fg: ${item.titleRomanized}
+            - $partial: directory/english-title
+              item: ${item}
+            - $if item.author:
+                - rtgl-text s=sm break-long-tokens:
+                    - span: ${directory.copy.byAuthor}
+                    - $if item.authorUrl:
+                        - a href="${item.authorUrl}" target=_blank rel="noopener noreferrer": ${item.author}
+                      $else:
+                        - span: ${item.author}
+        - rtgl-view w=f pv=lg bwt=xs bwb=xs g=lg:
+            - rtgl-view w=f g=md:
+                - rtgl-text s=sm c=mu-fg role=heading aria-level=2: ${directory.copy.languageLabel}
+                - rtgl-view d=h av=c g=md:
+                    - $partial: directory/language-label
+                      languageId: ${item.language}
+                    - $if item.minimumLevel:
+                        - rtgl-tag: ${item.minimumLevel}
+                        - rtgl-text s=sm c=mu-fg: ${directory.copy.levelLabel}
+            - rtgl-view w=f g=md:
+                - rtgl-text s=sm c=mu-fg role=heading aria-level=2: ${directory.copy.genresLabel}
+                - rtgl-view d=h wrap g=sm:
+                    - $partial: directory/genre-labels
+                      item: ${item}
+        - rtgl-view w=f g=lg:
+            - rtgl-text s=h4 role=heading aria-level=2: ${directory.copy.synopsis}
+            - rtgl-text: ${item.synopsis}
+        - rtgl-view d=h wrap g=md:
+            - rtgl-button href="${item.gameUrl}" new-tab v=pr:
+                - span: ${directory.copy.openGame}
+                - span aria-hidden=true: ↗
+            - $if item.vndbUrl:
+                - rtgl-button href="${item.vndbUrl}" new-tab v=ol: ${directory.copy.viewOnVndb}
+        - $if directory.forms.reportIssueUrl:
+            - rtgl-text s=sm:
+                - a href="${directory.forms.reportIssueUrl}" target=_blank rel="noopener noreferrer": ${directory.copy.reportIssueCompact}
