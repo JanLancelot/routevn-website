@@ -35,7 +35,7 @@
         - rtgl-view d=h wrap g=md:
             - rtgl-button href="${item.gameUrl}" new-tab v=pr: "${directory.copy.openGame} ${item.gameHost} ↗"
             - $if item.vndbUrl:
-                - rtgl-button href="${item.vndbUrl}" new-tab v=ol: ${directory.copy.viewOnVndb}
+                - rtgl-button href="${item.vndbUrl}" new-tab v=ol: "${directory.copy.viewOnVndb} ↗"
         - $if directory.forms.reportIssueUrl:
             - rtgl-text s=sm:
                 - a href="${directory.forms.reportIssueUrl}" target=_blank rel="noopener noreferrer": ${directory.copy.reportIssueCompact}

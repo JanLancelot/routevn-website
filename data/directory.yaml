@@ -101,7 +101,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://nomnomnami.itch.io/astras-garden
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v35794
     genres:
       - fantasy
       - simulation
@@ -157,7 +157,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/5332
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v31782
     genres:
       - romance
       - science-fiction
@@ -187,7 +187,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/3826
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v29406
     genres:
       - mystery
       - simulation
@@ -209,7 +209,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://melty-clown-studio.itch.io/pyun-pyun-heart-throbbing-endless-love-bakery
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v51317
     genres:
       - romance
       - mystery
@@ -275,7 +275,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/6610
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v36255
     genres:
       - comedy
       - horror
@@ -299,7 +299,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/4997
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v33335
     genres:
       - romance
       - mystery
@@ -334,7 +334,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/7117
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v43231
     genres:
       - horror
       - mystery
@@ -381,7 +381,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://nomnomnami.itch.io/first-kiss-at-a-spooky-soiree
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v20167
     genres:
       - fantasy
       - romance
@@ -408,7 +408,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/1059
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v28334
     genres:
       - mystery
       - puzzle
@@ -437,7 +437,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/4641
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v30449
     genres:
       - horror
       - mystery
@@ -465,7 +465,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/14081
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v65742
     genres:
       - romance
       - comedy
@@ -495,7 +495,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/6233
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v34044
     genres:
       - romance
       - mystery
@@ -536,7 +536,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://hamiltonhour.itch.io/the-cookie-project
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v48992
     genres:
       - romance
       - science-fiction
@@ -564,7 +564,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/2306
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v30569
     genres:
       - adventure
     summary: >-
@@ -592,7 +592,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/8571
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v46891
     genres:
       - romance
       - horror
@@ -613,7 +613,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://dragonquills.itch.io/the-breakup
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v43529
     genres:
       - slice-of-life
       - drama
@@ -667,7 +667,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/3470
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v58776
     genres:
       - romance
       - simulation
@@ -698,7 +698,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/6579
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v35695
     genres:
       - horror
       - mystery
@@ -718,7 +718,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://f-ulmen.itch.io/goodbyes
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v33424
     genres:
       - romance
       - drama
@@ -745,7 +745,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/1705
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v29699
     genres:
       - fantasy
       - puzzle
@@ -773,7 +773,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/7327
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v39146
     genres:
       - romance
       - drama
@@ -795,7 +795,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://dragontheorygames.itch.io/reincarnated-as-a-farm-girl-a-queen-bees-second-life
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v56855
     genres:
       - fantasy
       - romance
@@ -815,7 +815,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://nomnomnami.itch.io/her-tears-were-my-light
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v19234
     genres:
       - fantasy
       - romance
@@ -842,7 +842,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/6985
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v37847
     genres:
       - science-fiction
       - simulation
@@ -891,7 +891,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/9081
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v48437
     genres:
       - romance
       - horror
@@ -948,7 +948,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/12964
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v63257
     genres:
       - fantasy
       - puzzle
@@ -971,7 +971,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://hyakuten-games.itch.io/the-inbetween
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v50112
     genres:
       - fantasy
       - romance
@@ -1044,7 +1044,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://justacarrot.itch.io/where-theres-a-will
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v51774
     genres:
       - fantasy
       - romance
@@ -1142,7 +1142,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/4960
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v31130
     genres:
       - romance
       - horror
@@ -1214,7 +1214,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/9174
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v51387
     genres:
       - fantasy
       - mystery
@@ -1242,7 +1242,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/9591
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v50466
     genres:
       - romance
       - fantasy
@@ -1264,7 +1264,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://samehawke.itch.io/its-not-a-game-about-bread
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v51649
     genres:
       - mystery
       - horror
@@ -1291,7 +1291,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/2426
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v27058
     genres:
       - romance
       - comedy
@@ -1320,7 +1320,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/9978
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v51618
     genres:
       - horror
       - mystery
@@ -1350,7 +1350,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/5697
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v39357
     genres:
       - horror
       - drama
@@ -1372,7 +1372,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://rizvn.itch.io/win-girls
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v47104
     genres:
       - romance
       - comedy
@@ -1401,7 +1401,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/11499
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v56467
     genres:
       - mystery
       - comedy
@@ -1429,7 +1429,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/3232
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v28481
     genres:
       - romance
       - comedy
@@ -1451,7 +1451,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://zenithzyie.itch.io/howdy-pardner
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v48040
     genres:
       - romance
       - adventure
@@ -1478,7 +1478,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/12574
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v60212
     genres:
       - horror
       - simulation
@@ -1561,7 +1561,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/8962
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v48112
     genres:
       - science-fiction
       - horror
@@ -1590,7 +1590,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/4915
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v31517
     genres:
       - romance
       - mystery
@@ -1611,7 +1611,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://npckc.itch.io/229
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v49673
     genres:
       - fantasy
       - adventure
@@ -1636,7 +1636,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/8394
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v48229
     genres:
       - science-fiction
       - horror
@@ -1667,7 +1667,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/1012
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v25733
     genres:
       - mystery
       - horror
@@ -1696,7 +1696,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/3846
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v29623
     genres:
       - slice-of-life
       - drama
@@ -1718,7 +1718,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://maho-anpu.itch.io/her-time-of-the-month
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v55497
     genres:
       - slice-of-life
       - simulation
@@ -1738,7 +1738,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://smallbirds.itch.io/welcometothelibrary
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v57284
     genres:
       - fantasy
       - mystery
@@ -1797,7 +1797,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/13498
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v63204
     genres:
       - fantasy
       - comedy
@@ -1826,7 +1826,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/6953
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v37748
     genres:
       - romance
       - slice-of-life
@@ -1937,7 +1937,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/10633
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v59211
     genres:
       - horror
       - adventure
@@ -1956,7 +1956,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://konayachi.itch.io/tuna-rice
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v46093
     genres:
       - slice-of-life
     summary: A warm meal becomes the center of a small story about friendship.
@@ -1976,7 +1976,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://npckc.itch.io/server-shutdown
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v61350
     genres:
       - comedy
       - fantasy
@@ -2031,7 +2031,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/13795
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v63847
     genres:
       - romance
       - comedy
@@ -2053,7 +2053,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://npckc.itch.io/plastic-tape
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v44150
     genres:
       - slice-of-life
       - drama
@@ -2080,7 +2080,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/9410
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v54491
     genres:
       - romance
       - comedy
@@ -2103,7 +2103,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://elizadev.itch.io/getting-familiar
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v52104
     genres:
       - fantasy
       - romance
@@ -2125,7 +2125,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/10138
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v62895
     genres:
       - science-fiction
       - slice-of-life
@@ -2156,7 +2156,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/1780
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v27511
     genres:
       - slice-of-life
       - simulation
@@ -2212,7 +2212,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/9723
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v53404
     genres:
       - horror
     summary: >-
@@ -2240,7 +2240,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/965
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v30328
     genres:
       - romance
       - mystery
@@ -2272,7 +2272,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/9456
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v49862
     genres:
       - puzzle
       - romance
@@ -2344,7 +2344,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/11394
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v56786
     genres:
       - fantasy
     summary: A tiny fairy dances to bring a girl some happiness.
@@ -2368,7 +2368,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/9375
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v50564
     genres:
       - horror
       - mystery
@@ -2399,7 +2399,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/9405
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v63531
     genres:
       - comedy
       - adventure
@@ -2421,7 +2421,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/7793
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v43137
     genres:
       - drama
     summary: >-
@@ -2439,7 +2439,7 @@ novels:
     language: en
     minimumLevel: null
     gameUrl: https://konayachi.itch.io/the-ice-cream-culprit
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v51776
     genres:
       - slice-of-life
       - comedy
@@ -2467,7 +2467,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/12428
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v60338
     genres:
       - romance
       - fantasy
@@ -2497,7 +2497,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/12319
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v59457
     genres:
       - romance
       - comedy
@@ -2526,7 +2526,7 @@ novels:
     language: ja
     minimumLevel: null
     gameUrl: https://novelgame.jp/games/show/12615
-    vndbUrl: null
+    vndbUrl: https://vndb.org/v65743
     genres:
       - comedy
       - slice-of-life
