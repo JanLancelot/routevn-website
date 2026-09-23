@@ -7,11 +7,11 @@ _bind:
 title: Getting Started
 seo:
   title: "Getting Started | RouteVN Web Extractor Docs"
-  description: "Set up RouteVN Web Extractor in Chrome or Firefox, install a dictionary, and look up your first word in a supported web visual novel."
+  description: "Set up RouteVN Web Extractor in Chrome, Firefox, or Safari, install a dictionary, and look up your first word in a supported web visual novel."
 sidebarId: getting-started
 ---
 
-RouteVN Web Extractor is a popup dictionary for web visual novels on [novelgame.jp](http://novelgame.jp) and [itch.io](https://itch.io/). It works on games made with RouteVN, Ren'Py, and TyranoScript. You can instantly lookup definitions by hovering over words. This guide will help you get started on Chrome and Firefox.
+RouteVN Web Extractor is a popup dictionary for web visual novels on [novelgame.jp](http://novelgame.jp) and [itch.io](https://itch.io/). It works on games made with RouteVN, Ren'Py, and TyranoScript. You can instantly lookup definitions by hovering over words. This guide will help you get started on Chrome, Firefox, and Safari.
 
 ## Install the Extension
 
@@ -34,7 +34,20 @@ RouteVN Web Extractor is a popup dictionary for web visual novels on [novelgame.
 
 ### Safari
 
-Safari support is coming soon. We’ll add the installation link here when it’s available.
+The Safari extension is available on Mac.
+
+1. Open [RouteVN Web Extractor on the Mac App Store](https://apps.apple.com/app/routevn-web-extractor/id6810254822).
+2. Select **Get**, then **Install**.
+3. In Safari, choose **Safari > Settings**.
+
+   <img src="/public/reader/web-extractor/screenshots/safari-settings-menu.png" alt="Safari menu with Settings highlighted." width="422" height="284" loading="lazy" style="display: block; max-width: 100%; height: auto; margin: 24px auto;">
+
+4. Select **Extensions**, then select the checkbox next to **RouteVN Web Extractor**.
+5. Select **RouteVN Web Extractor** to review its permissions.
+
+   <img src="/public/reader/web-extractor/screenshots/safari-extension-permissions.png" alt="Safari Extensions settings with RouteVN Web Extractor turned on and its permissions shown." width="821" height="590" loading="lazy" style="display: block; max-width: 100%; height: auto; margin: 24px auto;">
+
+6. The onboarding opens and asks you to install a dictionary.
 
 ## Install a Dictionary
 
