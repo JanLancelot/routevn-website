@@ -187,7 +187,7 @@ browsers:
       subtitleHtml: RouteVN Web Extractor is a browser extension that helps you<br>read visual novels in other languages with a pop-up dictionary
       backgroundImageSrc: /public/masshiro/stickers/masshirook.png
       backgroundImageAlt: Chibi Masshiro winking and making an OK hand gesture.
-      videoSrc: /public/reader/web-extractor/demo-with-music.mp4
+      videoSrc: /public/reader/web-extractor/routevn-webextractor-demo.mp4
       videoLabel: RouteVN Web Extractor demo with dictionary lookups and Anki integration
 
     - $partial: feature1
